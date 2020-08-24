@@ -1,0 +1,3380 @@
+# Copyright (C) 2017 Themeisle
+# This file is distributed under the GNU General Public License version 2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zerif PRO 1.8.7.7\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/zerif-pro/issues\n"
+"POT-Creation-Date: 2017-08-08 09:43:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-08 12:50+0200\n"
+"Last-Translator: rodica <rodica@themeisle.com>\n"
+"Language-Team: \n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Zainstaluj wymagane wtyczki"
+
+#: class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Zainstaluj wtyczki"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Instalacja wtyczki: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:339
+#, fuzzy
+msgid "Updating Plugin: %s"
+msgstr "Instalacja wtyczki: %s"
+
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczek."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Rozpocznij instalację wtyczki"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Rozpocznij aktualizację wtyczki"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Rozpocznij aktywację wtyczki"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Powrót do instalacji wymaganych wtyczek."
+
+#: class-tgm-plugin-activation.php:393
+#: class-tgm-plugin-activation.php:922
+#: class-tgm-plugin-activation.php:2639
+#: class-tgm-plugin-activation.php:3686
+msgid "Return to the Dashboard"
+msgstr "Powrót do panelu"
+
+#: class-tgm-plugin-activation.php:394
+#: class-tgm-plugin-activation.php:3265
+msgid "Plugin activated successfully."
+msgstr "Wtyczka pomyślnie aktywowana."
+
+#: class-tgm-plugin-activation.php:395
+#: class-tgm-plugin-activation.php:3058
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgstr "Następujące wtyczki zostały pomyślnie aktywowane:"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Brak wymaganych działań. Wtyczka %1$s jest już aktywna."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Wtyczka nieaktywna. Wyższa wersja od %s jest potrzebna dla tego motywu. Proszę zaktualizować wtyczkę."
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Pomyślnie zainstalowano i aktywowano wszystkie wtyczki. %1$s"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Odrzuć tę uwagę"
+
+#: class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Proszę skontaktować się z administratorem tej strony w celu uzyskania pomocy."
+
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Wtyczka musi być zaktualizowana, aby być zgodna z szablonem."
+
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Wymagana aktualizacja"
+
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Ustaw zmienną config parent_slug."
+
+#: class-tgm-plugin-activation.php:1029
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Zdalny pakiet z wtyczką nie zawiera folderu z żądaną zawartością i zmiana nazwy nie działa."
+
+#: class-tgm-plugin-activation.php:1029
+#: class-tgm-plugin-activation.php:1035
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Proszę skontaktować się z dostawcą wtyczki i poprosić, aby spakował swoje wtyczki zgodnie z wytycznymi WordPress."
+
+#: class-tgm-plugin-activation.php:1035
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Pakiet składa się z więcej niż jednego pliku, ale pliki nie zostały umieszczone w folderze."
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:2088
+#, fuzzy
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:2379
+msgid "Required"
+msgstr "Wymagane"
+
+#: class-tgm-plugin-activation.php:2382
+msgid "Recommended"
+msgstr "Zalecane"
+
+#: class-tgm-plugin-activation.php:2398
+msgid "WordPress Repository"
+msgstr "Repozytorium WordPress"
+
+#: class-tgm-plugin-activation.php:2401
+msgid "External Source"
+msgstr "Zewnętrzne źródło"
+
+#: class-tgm-plugin-activation.php:2404
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: class-tgm-plugin-activation.php:2421
+msgid "Not Installed"
+msgstr "Nie zainstalowana"
+
+#: class-tgm-plugin-activation.php:2425
+msgid "Installed But Not Activated"
+msgstr "Zainstalowana Ale Nie Aktywowana"
+
+#: class-tgm-plugin-activation.php:2427
+msgid "Active"
+msgstr "Aktywne"
+
+#: class-tgm-plugin-activation.php:2433
+msgid "Required Update not Available"
+msgstr "Wymagana aktualizacja niedostępna"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Requires Update"
+msgstr "Wymagana aktualizacja"
+
+#: class-tgm-plugin-activation.php:2439
+msgid "Update recommended"
+msgstr "Rekomendowana aktualizacja"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2498
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Do instalacji <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2502
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Dostępne aktualizacje <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2506
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Do aktywacji <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2596
+msgid "Installed version:"
+msgstr "Zainstalowana wersja:"
+
+#: class-tgm-plugin-activation.php:2604
+msgid "Minimum required version:"
+msgstr "Minimalna wymagana wersja:"
+
+#: class-tgm-plugin-activation.php:2616
+msgid "Available version:"
+msgstr "Dostępna wersja:"
+
+#: class-tgm-plugin-activation.php:2639
+#, fuzzy
+msgid "No plugins to install, update or activate."
+msgstr "Brak wtyczek do instalacji, aktualizacji lub aktywacji. <a href=\"%1$s\">Powrót do panelu</a>"
+
+#: class-tgm-plugin-activation.php:2653
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: class-tgm-plugin-activation.php:2654
+msgid "Source"
+msgstr "Źródło"
+
+#: class-tgm-plugin-activation.php:2655
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:2659
+msgid "Version"
+msgstr "Wersja"
+
+#: class-tgm-plugin-activation.php:2660
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2709
+#, fuzzy
+msgid "Install %2$s"
+msgstr "Zainstalowano %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2714
+#, fuzzy
+msgid "Update %2$s"
+msgstr "Zaktualizowano %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2720
+#, fuzzy
+msgid "Activate %2$s"
+msgstr "Aktywowano %2$s"
+
+#: class-tgm-plugin-activation.php:2790
+msgid "Upgrade message from the plugin author:"
+msgstr "Wiadomość od autora aktualizacji wtyczki:"
+
+#: class-tgm-plugin-activation.php:2823
+msgid "Install"
+msgstr "Instalacja"
+
+#: class-tgm-plugin-activation.php:2829
+msgid "Update"
+msgstr "Aktualizacja"
+
+#: class-tgm-plugin-activation.php:2832
+#: functions.php:225
+#: functions.php:251
+msgid "Activate"
+msgstr "Aktywować"
+
+#: class-tgm-plugin-activation.php:2863
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nie wybrano wtyczek do aktualizacji. Nie podjęto działań."
+
+#: class-tgm-plugin-activation.php:2865
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nie wybrano wtyczek do aktualizacji. Nie podjęto działań."
+
+#: class-tgm-plugin-activation.php:2906
+msgid "No plugins are available to be installed at this time."
+msgstr "Obecnie brak dostępnych aktualizacji wtyczek."
+
+#: class-tgm-plugin-activation.php:2908
+msgid "No plugins are available to be updated at this time."
+msgstr "Obecnie brak dostępnych aktualizacji wtyczek."
+
+#: class-tgm-plugin-activation.php:3014
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nie wybrano wtyczek do aktywacji. Nie podjęto działań."
+
+#: class-tgm-plugin-activation.php:3040
+msgid "No plugins are available to be activated at this time."
+msgstr "Brak wtyczek, które mają zostać aktywowane w tym momencie."
+
+#: class-tgm-plugin-activation.php:3264
+msgid "Plugin activation failed."
+msgstr "Błąd aktywacji wtyczki."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3604
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Zaktualizowano wtyczkę %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3607
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Wystąpił błąd podczas instalacji %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3609
+msgid "The installation of %1$s failed."
+msgstr "Instalacja %1$s nie powiodła się."
+
+#: class-tgm-plugin-activation.php:3613
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces instalacji i aktywacji rozpoczęty. Proces ten może potrwać w zależności od wydajności serwera, więc proszę o cierpliwość."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3615
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s pomyślnie zainstalowano i aktywowano."
+
+#: class-tgm-plugin-activation.php:3615
+#: class-tgm-plugin-activation.php:3623
+msgid "Show Details"
+msgstr "Pokaż szczegóły"
+
+#: class-tgm-plugin-activation.php:3615
+#: class-tgm-plugin-activation.php:3623
+msgid "Hide Details"
+msgstr "Ukryj szczegóły"
+
+#: class-tgm-plugin-activation.php:3616
+msgid "All installations and activations have been completed."
+msgstr "Wszystkie instalacje i aktywacje zostały zakończone."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3618
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Zainstalowano i aktywowano wtyczkę %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3621
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces instalacji rozpoczęty. Proces ten może potrwać w zależności od wydajności serwera, więc proszę o cierpliwość."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3623
+msgid "%1$s installed successfully."
+msgstr "%1$s zainstalowano pomyślnie."
+
+#: class-tgm-plugin-activation.php:3624
+msgid "All installations have been completed."
+msgstr "Zakończono wszystkie instalacje."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3626
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja wtyczki %1$s (%2$d/%3$d)"
+
+#: comments.php:65
+#: comments.php:101
+msgid "Comment navigation"
+msgstr "Nawigacja komentarzy"
+
+#: comments.php:67
+#: comments.php:103
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+#: comments.php:69
+#: comments.php:105
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+#: comments.php:117
+msgid "Comments are closed."
+msgstr "Komentarze są niedostępne"
+
+#: content-large.php:78
+#: content.php:74
+#: sections/latest_news.php:104
+#: sections/latest_news.php:136
+msgid "[...]"
+msgstr ""
+
+#: content-large.php:78
+#: content.php:74
+#: sections/latest_news.php:104
+#: sections/latest_news.php:136
+#, fuzzy
+msgid "about "
+msgstr "O nas"
+
+#: content-large.php:86
+#: content-page-no-title.php:21
+#: content-page.php:41
+#: content-portfolio.php:39
+#: content-single.php:48
+#: content.php:81
+msgid "Pages:"
+msgstr "Strony:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-large.php:123
+#: content-large.php:143
+#: content-single.php:67
+#: content-single.php:73
+#: content.php:99
+#: content.php:113
+msgid ", "
+msgstr ", "
+
+#. translators: Categories list
+#: content-large.php:131
+#: content.php:105
+msgid "Posted in %1$s"
+msgstr "Utworzono %1$s"
+
+#. translators: Tags list
+#: content-large.php:151
+#: content.php:119
+msgid "Tagged %1$s"
+msgstr "Oznaczono %1$s"
+
+#: content-large.php:162
+#: content.php:131
+msgid "Leave a comment"
+msgstr "Zostaw komentarz"
+
+#: content-large.php:162
+#: content.php:131
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+#: content-large.php:162
+#: content.php:131
+msgid "% Comments"
+msgstr "% Komentarzy"
+
+#: content-large.php:166
+#: content-page-no-title.php:32
+#: content-page.php:52
+#: content-portfolio.php:54
+#: content-single.php:117
+#: content.php:137
+msgid "Edit"
+msgstr "Edycja"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Nie odnaleziono"
+
+#. translators: Add new post link
+#: content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gotowy na publikację pierwszego wpisu? <a href=\"%1$s\">Rozpocznij tutaj</a>."
+
+#: content-none.php:35
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Przepraszamy, ale nie spełniono warunków wyszukiwania. Proszę spróbować ponownie z inną frazą."
+
+#: content-none.php:45
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Wydaje się, że nie można znaleźć tego, czego szukasz. Być może wyszukiwanie pomoże."
+
+#. translators: 2 - Tags list, 3 - Permalink
+#: content-single.php:82
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Ten wpis został oznaczony %2$s. <a href=\"%3$s\" rel=\"bookmark\">Dodaj</a> do ulubionych."
+
+#. translators: 3 - Permalink
+#: content-single.php:86
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<a href=\"%3$s\" rel=\"bookmark\">Dodaj</a> do ulubionych."
+
+#. translators: 1 - Categories list, 2 - Tags list, 3 - Permalink
+#: content-single.php:94
+#, fuzzy
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Ten wpis został oznaczony %2$s. <a href=\"%3$s\" rel=\"bookmark\">Dodaj</a> do ulubionych."
+
+#. translators: 1 - Categories list , 3 - Permalink
+#: content-single.php:98
+#, fuzzy
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Ten wpis został oznaczony %2$s. <a href=\"%3$s\" rel=\"bookmark\">Dodaj</a> do ulubionych."
+
+#: footer.php:26
+#: inc/customizer.php:1308
+#: inc/customizer.php:1598
+msgid "Company address"
+msgstr "Adres firmy"
+
+#: footer.php:183
+#: inc/class/class-zerif-team-widget.php:347
+#: inc/customizer.php:1330
+#: inc/customizer.php:1620
+msgid "Facebook link"
+msgstr "Facebook link"
+
+#: footer.php:188
+#: inc/class/class-zerif-team-widget.php:351
+#: inc/customizer.php:1342
+#: inc/customizer.php:1632
+msgid "Twitter link"
+msgstr "Twitter link"
+
+#: footer.php:193
+#: inc/class/class-zerif-team-widget.php:363
+#: inc/customizer.php:1354
+#: inc/customizer.php:1644
+msgid "Linkedin link"
+msgstr "Linkedin link"
+
+#: footer.php:198
+#: inc/class/class-zerif-team-widget.php:355
+#: inc/customizer.php:1366
+#: inc/customizer.php:1656
+msgid "Behance link"
+msgstr "Behance link"
+
+#: footer.php:203
+#: inc/customizer.php:1378
+#: inc/customizer.php:1668
+msgid "Dribbble link"
+msgstr "Dribbble link"
+
+#: footer.php:208
+#, fuzzy
+msgid "Google Plus link"
+msgstr "Link Google+"
+
+#: footer.php:213
+#: inc/class/class-zerif-team-widget.php:371
+#: inc/customizer.php:1400
+#: inc/customizer.php:1690
+msgid "Pinterest link"
+msgstr "Link Pinterest"
+
+#: footer.php:218
+#: inc/class/class-zerif-team-widget.php:375
+#: inc/customizer.php:1411
+#: inc/customizer.php:1701
+msgid "Tumblr link"
+msgstr "Link Tumblr"
+
+#: footer.php:223
+#: inc/class/class-zerif-team-widget.php:379
+#: inc/customizer.php:1422
+#: inc/customizer.php:1712
+msgid "Reddit link"
+msgstr "Link Reddit"
+
+#: footer.php:228
+msgid "Youtube link"
+msgstr "Youtube link"
+
+#: footer.php:233
+#: inc/class/class-zerif-team-widget.php:387
+#: inc/customizer.php:1444
+#: inc/customizer.php:1734
+#, fuzzy
+msgid "Instagram link"
+msgstr "Zainstaluj wtyczki"
+
+#: front-page.php:58
+msgid "* Please enter your name."
+msgstr "* Proszę wpisać imię"
+
+#: front-page.php:77
+msgid "* Please enter your email address."
+msgstr "* Proszę wpisać adres e-mail"
+
+#: front-page.php:86
+msgid "* You entered an invalid email address."
+msgstr "* Podano zły adres e-mail"
+
+#: front-page.php:107
+msgid "* Please enter a subject."
+msgstr "* Proszę wpisać temat"
+
+#: front-page.php:128
+msgid "* Please enter a message."
+msgstr "* Proszę wpisać wiadomość"
+
+#: front-page.php:413
+msgid "Thanks, your email was sent successfully!"
+msgstr "Dziękujemy, Twój e-mail został wysłany pomyślnie!"
+
+#: front-page.php:417
+msgid "Sorry, an error occured. The email could not be sent."
+msgstr "Przepraszamy, wystąpił błąd. Wiadomość e-mail nie może zostać wysłana."
+
+#: front-page.php:459
+#: inc/customizer.php:5459
+#: inc/customizer.php:5683
+msgid "Your Name"
+msgstr "Twoje imię"
+
+#: front-page.php:464
+#, fuzzy
+msgid "Your name"
+msgstr "Twoje imię"
+
+#: front-page.php:490
+#: inc/customizer.php:5472
+#: inc/customizer.php:5695
+msgid "Your Email"
+msgstr "Twój e-mail"
+
+#: front-page.php:494
+#, fuzzy
+msgid "Your email"
+msgstr "Twój e-mail"
+
+#: front-page.php:519
+#: inc/customizer.php:5485
+#: inc/customizer.php:5707
+msgid "Subject"
+msgstr "Temat"
+
+#: front-page.php:524
+#, fuzzy
+msgid "Your subject"
+msgstr "Youtube link"
+
+#: front-page.php:549
+#: inc/customizer.php:5498
+#: inc/customizer.php:5719
+msgid "Your Message"
+msgstr "Twoja wiadomość"
+
+#: front-page.php:554
+#, fuzzy
+msgid "Your message"
+msgstr "Twoja wiadomość"
+
+#: front-page.php:576
+#: inc/customizer.php:5511
+#: inc/customizer.php:5671
+msgid "Send Message"
+msgstr "Wyślij wiadomość"
+
+#: functions.php:57
+#: inc/template-tags.php:609
+msgid "Primary Menu"
+msgstr "Główne menu"
+
+#: functions.php:112
+#: functions.php:114
+msgid "About Zerif PRO"
+msgstr ""
+
+#. translators: s - theme name
+#: functions.php:117
+msgid "Welcome to %s! - Version "
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Zerif PRO is a modern responsive WordPress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio."
+msgstr "Zerif PRO to nowoczesny responsywny motyw WordPress. Jest to idealne rozwiązanie dla agencji internetowych, studia cyfrowego, firmy, prezentacji produktów, stron osobistych i biznesowych."
+
+#: functions.php:127
+#, fuzzy
+msgid "Getting Started"
+msgstr "Ustawienia"
+
+#: functions.php:128
+#, fuzzy
+msgid "Recommended Actions"
+msgstr "Zalecane"
+
+#: functions.php:129
+#, fuzzy
+msgid "Useful Plugins"
+msgstr "Zainstaluj wtyczki"
+
+#: functions.php:130
+msgid "Support"
+msgstr ""
+
+#: functions.php:131
+#: functions.php:154
+#: functions.php:157
+msgid "Changelog"
+msgstr ""
+
+#: functions.php:136
+#: functions.php:139
+#, fuzzy
+msgid "Contact Support"
+msgstr "Skontaktuj się"
+
+#: functions.php:138
+msgid "We want to make sure you have the best experience using Hestia, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Hestia as much as we enjoy creating great products."
+msgstr ""
+
+#: functions.php:145
+#: functions.php:204
+#, fuzzy
+msgid "Documentation"
+msgstr "Nawigacja komentarzy"
+
+#: functions.php:147
+#: functions.php:203
+msgid "Need more details? Please check our full documentation for detailed information on how to use Hestia."
+msgstr ""
+
+#: functions.php:148
+#: functions.php:202
+msgid "Read full documentation"
+msgstr ""
+
+#: functions.php:156
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr ""
+
+#: functions.php:163
+#, fuzzy
+msgid "Create a child theme"
+msgstr "Stwórz konto tutaj"
+
+#: functions.php:165
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr ""
+
+#: functions.php:166
+#: functions.php:175
+#: functions.php:184
+msgid "View how to do this"
+msgstr ""
+
+#: functions.php:172
+msgid "Speed up your site"
+msgstr ""
+
+#: functions.php:174
+msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr ""
+
+#: functions.php:181
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr ""
+
+#: functions.php:183
+msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr ""
+
+#: functions.php:193
+#: functions.php:195
+#, fuzzy
+msgid "Recommended actions"
+msgstr "Zalecane"
+
+#: functions.php:194
+msgid "We have compiled a list of steps for you to take so we can ensure that the experience you have using one of our products is very easy to follow."
+msgstr ""
+
+#: functions.php:211
+#: functions.php:213
+msgid "Go to the Customizer"
+msgstr ""
+
+#: functions.php:212
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr ""
+
+#: functions.php:222
+#, fuzzy
+msgid "Already activated"
+msgstr "Aktywować"
+
+#: functions.php:223
+#, fuzzy
+msgid "Version: "
+msgstr "Wersja"
+
+#: functions.php:224
+#: functions.php:250
+#, fuzzy
+msgid "Install and Activate"
+msgstr "Zainstalowana Ale Nie Aktywowana"
+
+#: functions.php:226
+#: functions.php:252
+#, fuzzy
+msgid "Deactivate"
+msgstr "Aktywować"
+
+#: functions.php:256
+msgid "It is highly recommended that you install the companion plugin to have access to the Frontpage features, Team and Testimonials sections."
+msgstr ""
+
+#: functions.php:263
+msgid "Makes your Contact section more engaging by creating a good-looking contact form. Interaction with your visitors has never been easier."
+msgstr ""
+
+#: functions.php:383
+#: inc/customizer.php:223
+#: inc/customizer.php:251
+#: inc/customizer.php:279
+#: inc/customizer.php:307
+#: inc/customizer.php:335
+#: inc/customizer.php:363
+#: inc/customizer.php:392
+#: inc/customizer.php:421
+#: inc/customizer.php:449
+#: inc/customizer.php:477
+#: inc/customizer.php:505
+#: inc/customizer.php:533
+#: inc/customizer.php:561
+#: inc/template-tags.php:345
+msgid "Our focus"
+msgstr "Nasz fokus"
+
+#: functions.php:384
+#: inc/customizer.php:226
+#: inc/customizer.php:254
+#: inc/customizer.php:282
+#: inc/customizer.php:310
+#: inc/customizer.php:338
+#: inc/customizer.php:366
+#: inc/customizer.php:395
+#: inc/customizer.php:424
+#: inc/customizer.php:452
+#: inc/customizer.php:480
+#: inc/customizer.php:508
+#: inc/customizer.php:536
+#: inc/customizer.php:564
+msgid "Our team"
+msgstr "Nasz zespół"
+
+#: functions.php:385
+#: inc/class/class-zerif-testimonial-widget.php:147
+msgid "Testimonial"
+msgstr "Referencje"
+
+#: functions.php:386
+msgid "Client logo"
+msgstr "Logo klienta"
+
+#: functions.php:407
+#: functions.php:409
+#: inc/customizer.php:224
+#: inc/customizer.php:252
+#: inc/customizer.php:280
+#: inc/customizer.php:308
+#: inc/customizer.php:336
+#: inc/customizer.php:364
+#: inc/customizer.php:393
+#: inc/customizer.php:422
+#: inc/customizer.php:450
+#: inc/customizer.php:478
+#: inc/customizer.php:506
+#: inc/customizer.php:534
+#: inc/customizer.php:562
+#: inc/customizer.php:3240
+#: inc/customizer.php:3390
+#: sections/portfolio.php:51
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions.php:452
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:463
+msgid "Our focus section widgets"
+msgstr "Widgety sekcji Nasz focus"
+
+#: functions.php:473
+msgid "Testimonials section widgets"
+msgstr "Widgety sekcji Referencje"
+
+#: functions.php:484
+msgid "About us section widgets"
+msgstr "Widgety sekcji O nas"
+
+#: functions.php:495
+msgid "Our team section widgets"
+msgstr "Widgety sekcji Nasz team"
+
+#: functions.php:506
+msgid "Packages section widgets"
+msgstr "Widgety sekcji Pakietów"
+
+#: functions.php:517
+msgid "Subscribe section widgets"
+msgstr "Widgety sekcji Subskrypcji"
+
+#. translators: Footer area number
+#: functions.php:530
+msgid "Footer area %d"
+msgstr ""
+
+#: functions.php:831
+msgid "Default title"
+msgstr "Domyślny tytuł"
+
+#. translators: 1 - br tag, 2 - Post title
+#: functions.php:1391
+msgid "%1$s Continue reading%2$s"
+msgstr ""
+
+#: functions.php:1828
+#: header.php:37
+#: header.php:48
+#, fuzzy
+msgid "Skip to content"
+msgstr "Główna zawartość"
+
+#: header.php:220
+msgid "Menu"
+msgstr ""
+
+#: inc/class/class-zerif-clients-widget.php:92
+#: inc/class/class-zerif-ourfocus-widget.php:102
+#: inc/class/class-zerif-packages-widget.php:193
+#: inc/class/class-zerif-team-widget.php:115
+#: inc/class/class-zerif-testimonial-widget.php:104
+msgid "Go to"
+msgstr ""
+
+#: inc/class/class-zerif-clients-widget.php:160
+#, fuzzy
+msgid "Alt Title"
+msgstr "Tytuł"
+
+#: inc/class/class-zerif-clients-widget.php:168
+#: inc/class/class-zerif-ourfocus-widget.php:187
+msgid "Link"
+msgstr "Link"
+
+#: inc/class/class-zerif-ourfocus-widget.php:171
+#: inc/class/class-zerif-packages-widget.php:292
+#: inc/class/zerif-general-control.php:127
+#: inc/class/zerif-general-control.php:128
+#: inc/class/zerif-general-control.php:204
+#: inc/class/zerif-general-control.php:210
+#: inc/class/zerif-general-control.php:307
+#: inc/class/zerif-general-control.php:313
+#: inc/customizer.php:3545
+#: inc/customizer.php:3582
+#: inc/customizer.php:3640
+#: inc/customizer.php:3698
+#: inc/customizer.php:3756
+#: inc/customizer.php:3873
+#: inc/customizer.php:3926
+#: sections/about_us.php:45
+msgid "Title"
+msgstr "Tytuł"
+
+#: inc/class/class-zerif-ourfocus-widget.php:179
+#: inc/class/class-zerif-testimonial-widget.php:228
+#: inc/customizer.php:3594
+#: inc/customizer.php:3652
+#: inc/customizer.php:3710
+#: inc/customizer.php:3768
+msgid "Text"
+msgstr "Tekst"
+
+#: inc/class/class-zerif-packages-widget.php:283
+msgid "Color:"
+msgstr "Kolor:"
+
+#: inc/class/class-zerif-packages-widget.php:300
+#: inc/class/zerif-general-control.php:134
+#: inc/class/zerif-general-control.php:135
+#: inc/class/zerif-general-control.php:216
+#: inc/class/zerif-general-control.php:222
+#: inc/class/zerif-general-control.php:319
+#: inc/class/zerif-general-control.php:325
+#: inc/customizer.php:2914
+#: inc/customizer.php:3069
+#: inc/customizer.php:3258
+#: inc/customizer.php:3406
+#: inc/customizer.php:3537
+#: inc/customizer.php:3918
+#: inc/customizer.php:4218
+#: inc/customizer.php:4396
+#: inc/customizer.php:4598
+#: inc/customizer.php:4728
+#: inc/customizer.php:5451
+#: inc/customizer.php:5651
+#: inc/customizer.php:5867
+#: inc/customizer.php:6010
+#: inc/customizer.php:6224
+#: inc/customizer.php:6404
+#: inc/customizer.php:6593
+#: inc/customizer.php:6710
+msgid "Subtitle"
+msgstr "Podtytuł"
+
+#: inc/class/class-zerif-packages-widget.php:308
+msgid "Price"
+msgstr "Cena"
+
+#: inc/class/class-zerif-packages-widget.php:317
+msgid "Currency"
+msgstr "Waluta"
+
+#: inc/class/class-zerif-packages-widget.php:325
+msgid "Price meta (e.g. /MONTH)"
+msgstr "Opis ceny (np. /MIESIĄC)"
+
+#: inc/class/class-zerif-packages-widget.php:333
+#: inc/customizer.php:4849
+#: inc/customizer.php:4972
+msgid "Button label"
+msgstr "Opis przycisku"
+
+#: inc/class/class-zerif-packages-widget.php:341
+#: inc/customizer.php:4862
+#: inc/customizer.php:4985
+msgid "Button link"
+msgstr "Link przycisku"
+
+#. translators: Item number
+#: inc/class/class-zerif-packages-widget.php:359
+#, fuzzy
+msgid "Item %1$s"
+msgstr "Pozycja 1"
+
+#: inc/class/class-zerif-team-widget.php:94
+msgid "Team member"
+msgstr ""
+
+#: inc/class/class-zerif-team-widget.php:153
+#, fuzzy
+msgid "Facebook"
+msgstr "Facebook link"
+
+#: inc/class/class-zerif-team-widget.php:158
+#, fuzzy
+msgid "Twitter"
+msgstr "Twitter link"
+
+#: inc/class/class-zerif-team-widget.php:163
+#, fuzzy
+msgid "Behance"
+msgstr "Behance link"
+
+#: inc/class/class-zerif-team-widget.php:168
+#, fuzzy
+msgid "Dribbble"
+msgstr "Dribbble link"
+
+#: inc/class/class-zerif-team-widget.php:173
+#, fuzzy
+msgid "LinkedIn"
+msgstr "Link"
+
+#: inc/class/class-zerif-team-widget.php:178
+#, fuzzy
+msgid "Google Plus"
+msgstr "Link Google+"
+
+#: inc/class/class-zerif-team-widget.php:183
+#, fuzzy
+msgid "Pinterest"
+msgstr "Link Pinterest"
+
+#: inc/class/class-zerif-team-widget.php:188
+#, fuzzy
+msgid "Tumblr"
+msgstr "Link Tumblr"
+
+#: inc/class/class-zerif-team-widget.php:193
+#, fuzzy
+msgid "Reddit"
+msgstr "Link Reddit"
+
+#: inc/class/class-zerif-team-widget.php:198
+#, fuzzy
+msgid "YouTube"
+msgstr "Youtube link"
+
+#: inc/class/class-zerif-team-widget.php:203
+#, fuzzy
+msgid "Instagram"
+msgstr "Instalacja"
+
+#: inc/class/class-zerif-team-widget.php:208
+#: inc/customizer.php:1265
+#: inc/customizer.php:1555
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/class/class-zerif-team-widget.php:213
+#, fuzzy
+msgid "Website"
+msgstr "Link strony"
+
+#: inc/class/class-zerif-team-widget.php:218
+#, fuzzy
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+#: inc/class/class-zerif-team-widget.php:320
+msgid "Name"
+msgstr "Nazwa"
+
+#: inc/class/class-zerif-team-widget.php:328
+msgid "Position"
+msgstr "Pozycja"
+
+#: inc/class/class-zerif-team-widget.php:336
+msgid "Description"
+msgstr "Opis"
+
+#: inc/class/class-zerif-team-widget.php:343
+#, fuzzy
+msgid "Profile link"
+msgstr "Dribble link"
+
+#: inc/class/class-zerif-team-widget.php:359
+msgid "Dribble link"
+msgstr "Dribble link"
+
+#: inc/class/class-zerif-team-widget.php:367
+#: inc/customizer.php:1389
+#: inc/customizer.php:1679
+msgid "Google+ link"
+msgstr "Link Google+"
+
+#: inc/class/class-zerif-team-widget.php:383
+#: inc/customizer.php:1433
+#: inc/customizer.php:1723
+#, fuzzy
+msgid "YouTube link"
+msgstr "Youtube link"
+
+#: inc/class/class-zerif-team-widget.php:391
+msgid "Email link"
+msgstr "Link e-mail"
+
+#: inc/class/class-zerif-team-widget.php:395
+msgid "Website link"
+msgstr "Link strony"
+
+#: inc/class/class-zerif-team-widget.php:399
+#: inc/customizer.php:1289
+#: inc/customizer.php:1574
+#: inc/customizer.php:1578
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: inc/class/class-zerif-testimonial-widget.php:204
+msgid "Author"
+msgstr "Autor"
+
+#: inc/class/class-zerif-testimonial-widget.php:212
+msgid "Author link"
+msgstr "Autor - link"
+
+#: inc/class/class-zerif-testimonial-widget.php:220
+msgid "Author details"
+msgstr "Autor - szczegóły"
+
+#: inc/class/class-zerif-widget-tools.php:46
+#, fuzzy
+msgid "Image"
+msgstr "Obrazy"
+
+#: inc/class/class-zerif-widget-tools.php:63
+msgid "Uploaded image"
+msgstr ""
+
+#: inc/class/class-zerif-widget-tools.php:73
+msgid "Upload Image"
+msgstr ""
+
+#: inc/class/class-zerif-widget-tools.php:134
+#, fuzzy
+msgid "Open link in new window?"
+msgstr "Otwórz w nowej zakładce"
+
+#: inc/class/zerif-general-control.php:100
+#: inc/class/zerif-general-control.php:158
+#: inc/class/zerif-general-control.php:261
+#, fuzzy
+msgid "Zerif"
+msgstr "Zerif PRO"
+
+#: inc/class/zerif-general-control.php:106
+#: inc/class/zerif-general-control.php:164
+#: inc/class/zerif-general-control.php:267
+#: inc/customizer.php:804
+#: inc/customizer.php:1040
+#: inc/customizer.php:4890
+#: inc/customizer.php:5013
+msgid "Text color"
+msgstr "Kolor tekstu"
+
+#: inc/class/zerif-general-control.php:113
+#: inc/class/zerif-general-control.php:178
+#: inc/class/zerif-general-control.php:281
+#: inc/customizer.php:753
+#: inc/customizer.php:992
+#: inc/customizer.php:2441
+#: inc/customizer.php:2696
+#: inc/customizer.php:2935
+#: inc/customizer.php:3081
+#: inc/customizer.php:3299
+#: inc/customizer.php:3431
+#: inc/customizer.php:3814
+#: inc/customizer.php:4098
+#: inc/customizer.php:4240
+#: inc/customizer.php:4408
+#: inc/customizer.php:4619
+#: inc/customizer.php:4740
+#: inc/customizer.php:4876
+#: inc/customizer.php:4999
+#: inc/customizer.php:5537
+#: inc/customizer.php:5735
+#: inc/customizer.php:5888
+#: inc/customizer.php:6259
+#: inc/customizer.php:6417
+#: inc/customizer.php:6614
+#: inc/customizer.php:6723
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: inc/class/zerif-general-control.php:120
+#: inc/class/zerif-general-control.php:192
+#: inc/class/zerif-general-control.php:295
+#, fuzzy
+msgid "Background opacity"
+msgstr "Tło"
+
+#: inc/class/zerif-general-control.php:141
+#: inc/class/zerif-general-control.php:142
+#: inc/class/zerif-general-control.php:228
+#: inc/class/zerif-general-control.php:234
+#: inc/class/zerif-general-control.php:331
+#: inc/class/zerif-general-control.php:337
+#, fuzzy
+msgid "Shortcode"
+msgstr "Źródło"
+
+#: inc/class/zerif-general-control.php:148
+#: inc/class/zerif-general-control.php:250
+#: inc/class/zerif-general-control.php:353
+msgid "Delete field"
+msgstr ""
+
+#: inc/class/zerif-general-control.php:373
+msgid "Add new field"
+msgstr ""
+
+#: inc/class/zerif-pro-info.php:41
+msgid "View Documentation"
+msgstr ""
+
+#: inc/class/zerif-pro-info.php:45
+msgid "View Theme Info"
+msgstr ""
+
+#: inc/class/zerif-pro-info.php:49
+msgid "View Demo"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Enable video sound?"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "You can insert any HTML code in here, to create links, google maps or anything else."
+msgstr "Tutaj można wstawić dowolny kod HTML, np. aby utworzyć linki, mapy google, czy cokolwiek innego."
+
+#: inc/customizer.php:152
+msgid "The main content of this section consists of blog posts."
+msgstr "Główna treść tej sekcji zawiera wpisy z bloga."
+
+#: inc/customizer.php:165
+msgid "To have full control over the colors on homepage sections please visit each section options in Customizer."
+msgstr "Aby mieć pełną kontrolę nad kolorami na stronie głównej przejdź do sekcji Opcje w Customizer."
+
+#: inc/customizer.php:178
+msgid "You can install <a href=\"https://wordpress.org/plugins/intergeo-maps/\" taget=\"_blank\">WordPress Google Maps Plugin</a> to get more advanced maps option."
+msgstr ""
+
+#: inc/customizer.php:190
+#, fuzzy
+msgid "Theme info"
+msgstr "Themeisle"
+
+#: inc/customizer.php:207
+msgid "Sections order"
+msgstr "Sekcje zamówień"
+
+#: inc/customizer.php:208
+msgid "Here is where you can rearrange the homepage sections."
+msgstr "Oto gdzie można zmienić sekcje strony głównej."
+
+#: inc/customizer.php:225
+#: inc/customizer.php:253
+#: inc/customizer.php:281
+#: inc/customizer.php:309
+#: inc/customizer.php:337
+#: inc/customizer.php:365
+#: inc/customizer.php:394
+#: inc/customizer.php:423
+#: inc/customizer.php:451
+#: inc/customizer.php:479
+#: inc/customizer.php:507
+#: inc/customizer.php:535
+#: inc/customizer.php:563
+msgid "About us"
+msgstr "O nas"
+
+#: inc/customizer.php:227
+#: inc/customizer.php:255
+#: inc/customizer.php:283
+#: inc/customizer.php:311
+#: inc/customizer.php:339
+#: inc/customizer.php:367
+#: inc/customizer.php:396
+#: inc/customizer.php:425
+#: inc/customizer.php:453
+#: inc/customizer.php:481
+#: inc/customizer.php:509
+#: inc/customizer.php:537
+#: inc/customizer.php:565
+#: inc/customizer.php:4581
+#: inc/customizer.php:4713
+msgid "Testimonials"
+msgstr "Referencje"
+
+#: inc/customizer.php:228
+#: inc/customizer.php:256
+#: inc/customizer.php:284
+#: inc/customizer.php:312
+#: inc/customizer.php:340
+#: inc/customizer.php:368
+#: inc/customizer.php:397
+#: inc/customizer.php:426
+#: inc/customizer.php:454
+#: inc/customizer.php:482
+#: inc/customizer.php:510
+#: inc/customizer.php:538
+#: inc/customizer.php:566
+msgid "Bottom ribbon"
+msgstr "Dolna wstęga"
+
+#: inc/customizer.php:229
+#: inc/customizer.php:257
+#: inc/customizer.php:285
+#: inc/customizer.php:313
+#: inc/customizer.php:341
+#: inc/customizer.php:369
+#: inc/customizer.php:398
+#: inc/customizer.php:427
+#: inc/customizer.php:455
+#: inc/customizer.php:483
+#: inc/customizer.php:511
+#: inc/customizer.php:539
+#: inc/customizer.php:567
+msgid "Right ribbon"
+msgstr "Prawa wstęga"
+
+#: inc/customizer.php:230
+#: inc/customizer.php:258
+#: inc/customizer.php:286
+#: inc/customizer.php:314
+#: inc/customizer.php:342
+#: inc/customizer.php:370
+#: inc/customizer.php:399
+#: inc/customizer.php:428
+#: inc/customizer.php:456
+#: inc/customizer.php:484
+#: inc/customizer.php:512
+#: inc/customizer.php:540
+#: inc/customizer.php:568
+msgid "Contact us"
+msgstr "Skontaktuj się"
+
+#: inc/customizer.php:231
+#: inc/customizer.php:259
+#: inc/customizer.php:287
+#: inc/customizer.php:315
+#: inc/customizer.php:343
+#: inc/customizer.php:371
+#: inc/customizer.php:400
+#: inc/customizer.php:429
+#: inc/customizer.php:457
+#: inc/customizer.php:485
+#: inc/customizer.php:513
+#: inc/customizer.php:541
+#: inc/customizer.php:569
+#, fuzzy
+msgid " Packages"
+msgstr "Pakiety"
+
+#: inc/customizer.php:232
+#: inc/customizer.php:260
+#: inc/customizer.php:288
+#: inc/customizer.php:316
+#: inc/customizer.php:344
+#: inc/customizer.php:372
+#: inc/customizer.php:401
+#: inc/customizer.php:430
+#: inc/customizer.php:458
+#: inc/customizer.php:486
+#: inc/customizer.php:514
+#: inc/customizer.php:542
+#: inc/customizer.php:570
+msgid "Google map"
+msgstr "Mapy Google"
+
+#: inc/customizer.php:233
+#: inc/customizer.php:261
+#: inc/customizer.php:289
+#: inc/customizer.php:317
+#: inc/customizer.php:345
+#: inc/customizer.php:373
+#: inc/customizer.php:402
+#: inc/customizer.php:431
+#: inc/customizer.php:459
+#: inc/customizer.php:487
+#: inc/customizer.php:515
+#: inc/customizer.php:543
+#: inc/customizer.php:571
+msgid "Subscribe"
+msgstr "Subskrybuj"
+
+#: inc/customizer.php:234
+#: inc/customizer.php:262
+#: inc/customizer.php:290
+#: inc/customizer.php:318
+#: inc/customizer.php:346
+#: inc/customizer.php:374
+#: inc/customizer.php:403
+#: inc/customizer.php:432
+#: inc/customizer.php:460
+#: inc/customizer.php:488
+#: inc/customizer.php:516
+#: inc/customizer.php:544
+#: inc/customizer.php:572
+msgid "Latest news"
+msgstr "Ostatnie wiadomości"
+
+#: inc/customizer.php:235
+#: inc/customizer.php:263
+#: inc/customizer.php:291
+#: inc/customizer.php:319
+#: inc/customizer.php:347
+#: inc/customizer.php:375
+#: inc/customizer.php:404
+#: inc/customizer.php:433
+#: inc/customizer.php:461
+#: inc/customizer.php:489
+#: inc/customizer.php:517
+#: inc/customizer.php:545
+#: inc/customizer.php:573
+#, fuzzy
+msgid "Shortcodes"
+msgstr "Źródło"
+
+#: inc/customizer.php:589
+#: inc/customizer.php:884
+#: inc/customizer.php:2428
+#: inc/customizer.php:2922
+#: inc/customizer.php:3286
+#: inc/customizer.php:3801
+#: inc/customizer.php:4227
+#: inc/customizer.php:4606
+#: inc/customizer.php:5524
+#: inc/customizer.php:5875
+#: inc/customizer.php:6246
+#: inc/customizer.php:6601
+msgid "Colors"
+msgstr "Kolory"
+
+#: inc/customizer.php:595
+msgid "Homepage sections"
+msgstr "Sekcje strony głównej"
+
+#: inc/customizer.php:609
+msgid "Footer colors"
+msgstr "Kolory stopki"
+
+#: inc/customizer.php:622
+#: inc/customizer.php:896
+msgid "Footer background color"
+msgstr "Kolor tła stopki"
+
+#: inc/customizer.php:635
+#: inc/customizer.php:908
+msgid "Footer socials background color"
+msgstr "Kolor tła społecznościowych w stopce"
+
+#: inc/customizer.php:648
+#: inc/customizer.php:920
+msgid "Footer text color"
+msgstr "Kolor tekstu w stopce"
+
+#: inc/customizer.php:660
+#: inc/customizer.php:932
+#, fuzzy
+msgid "Footer text color - hover"
+msgstr "Kolor tekstu w stopce"
+
+#: inc/customizer.php:673
+#: inc/customizer.php:944
+msgid "Footer social icons color"
+msgstr "Kolor ikon społecznościowych w stopce"
+
+#: inc/customizer.php:685
+#: inc/customizer.php:956
+msgid "Footer socials icons color - hover"
+msgstr "Kolor aktywnych ikon społecznościowych w stopce"
+
+#: inc/customizer.php:698
+#: inc/customizer.php:968
+#, fuzzy
+msgid "Footer widgets title color"
+msgstr "Kolor dużego tytułu"
+
+#: inc/customizer.php:710
+#: inc/customizer.php:980
+#, fuzzy
+msgid "Footer widgets title bottom border color"
+msgstr "Kolor podkreślenia tytułów"
+
+#: inc/customizer.php:718
+msgid "General colors"
+msgstr "Kolory ogólne"
+
+#: inc/customizer.php:729
+#, fuzzy
+msgid "Menu item color"
+msgstr "Kolor dużego tytułu"
+
+#: inc/customizer.php:740
+#, fuzzy
+msgid "Menu item color hover"
+msgstr "Kolory aktywnych linków"
+
+#: inc/customizer.php:766
+#: inc/customizer.php:1004
+msgid "Navbar background color"
+msgstr "Kolor tła paska nawigacyjnego"
+
+#: inc/customizer.php:779
+#: inc/customizer.php:1016
+#: inc/customizer.php:3828
+#: inc/customizer.php:4111
+#: inc/customizer.php:4254
+#: inc/customizer.php:4421
+msgid "Titles color"
+msgstr "Kolor tytułów"
+
+#: inc/customizer.php:791
+#: inc/customizer.php:1028
+msgid "Titles bottom border color"
+msgstr "Kolor podkreślenia tytułów"
+
+#: inc/customizer.php:817
+#: inc/customizer.php:1052
+msgid "Links color"
+msgstr "Kolory linków"
+
+#: inc/customizer.php:830
+#: inc/customizer.php:1064
+msgid "Links color hover"
+msgstr "Kolory aktywnych linków"
+
+#: inc/customizer.php:838
+msgid "Buttons colors"
+msgstr "Kolory przycisków"
+
+#: inc/customizer.php:851
+#: inc/customizer.php:1076
+msgid "Buttons background color"
+msgstr "Kolory tła przycisków"
+
+#: inc/customizer.php:863
+#: inc/customizer.php:1088
+msgid "Buttons background color - hover"
+msgstr "Kolory tła aktywnych przycisków"
+
+#: inc/customizer.php:876
+#: inc/customizer.php:1100
+msgid "Buttons text color"
+msgstr "Kolory tekstu przycisków"
+
+#: inc/customizer.php:886
+msgid "Zerif theme colors"
+msgstr "Kolory motywu Zerif"
+
+#: inc/customizer.php:1117
+#: inc/customizer.php:1121
+#: inc/customizer.php:1452
+msgid "General options"
+msgstr "Opcje ogólne"
+
+#: inc/customizer.php:1133
+#: inc/customizer.php:1464
+msgid "Use safe font?"
+msgstr ""
+
+#: inc/customizer.php:1146
+#: inc/customizer.php:1500
+msgid "Disable preloader?"
+msgstr "Wyłączyć preloader?"
+
+#: inc/customizer.php:1158
+#: inc/customizer.php:1512
+msgid "Disable smooth scroll?"
+msgstr "Wyłączyć smooth scroll?"
+
+#: inc/customizer.php:1169
+msgid "Enable accessibility?"
+msgstr ""
+
+#: inc/customizer.php:1181
+msgid "Footer Copyright"
+msgstr "Copyright w stopce"
+
+#: inc/customizer.php:1192
+#: inc/customizer.php:1488
+msgid "Google analytics code"
+msgstr "Kod Google analytics"
+
+#: inc/customizer.php:1204
+#: inc/customizer.php:1531
+msgid "Change the template to Full width for all the pages?"
+msgstr ""
+
+#: inc/customizer.php:1216
+msgid "Display Featured Image in posts?"
+msgstr ""
+
+#: inc/customizer.php:1228
+msgid "Display Featured Image in pages?"
+msgstr ""
+
+#: inc/customizer.php:1234
+msgid "Footer sections"
+msgstr "Sekcja stopki"
+
+#: inc/customizer.php:1253
+#: inc/customizer.php:1543
+msgid "Email section - icon"
+msgstr "Ikona sekcji E-mail"
+
+#: inc/customizer.php:1277
+#: inc/customizer.php:1567
+msgid "Phone number section - icon"
+msgstr "Ikona sekcji Numer telefonu"
+
+#: inc/customizer.php:1301
+#: inc/customizer.php:1590
+msgid "Address section - icon"
+msgstr "Sekcja Adres - ikona"
+
+#: inc/customizer.php:1312
+#: inc/customizer.php:1603
+msgid "Address"
+msgstr "Adres"
+
+#: inc/customizer.php:1318
+#: inc/customizer.php:1609
+msgid "Socials options"
+msgstr "Opcje społecznościowe"
+
+#: inc/customizer.php:1454
+msgid "Zerif theme general options"
+msgstr "Opcje ogólne motywu Zerif"
+
+#: inc/customizer.php:1476
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer.php:1550
+msgid "Company email"
+msgstr "E-mail firmy"
+
+#: inc/customizer.php:1753
+msgid "Background"
+msgstr "Tło"
+
+#: inc/customizer.php:1759
+#: inc/customizer.php:2033
+msgid "Background settings"
+msgstr "Ustawienia tła"
+
+#: inc/customizer.php:1770
+#: inc/customizer.php:2044
+msgid "Type of background"
+msgstr "Typ tła"
+
+#: inc/customizer.php:1771
+msgid "Select the type of background you want. <b>Make sure you also set up the images/video in their corresponding places, down below.</b>"
+msgstr "Wybierz rodzaj tła, jakiego oczekujesz. <b>Upewnij się, że ustawienie obrazu/wideo jest w odpowiednim miejscu, również na dole.</b>"
+
+#: inc/customizer.php:1774
+#: inc/customizer.php:2048
+msgid "Background image"
+msgstr "Tło grafiki"
+
+#: inc/customizer.php:1775
+#: inc/customizer.php:1787
+#: inc/customizer.php:2049
+#: inc/customizer.php:2056
+msgid "Background slider"
+msgstr "Tło slidera"
+
+#: inc/customizer.php:1776
+#: inc/customizer.php:2050
+msgid "Background video"
+msgstr "Tło wideo"
+
+#: inc/customizer.php:1798
+#: inc/customizer.php:2066
+#: inc/customizer.php:2586
+msgid "Image 1"
+msgstr "Grafika 1"
+
+#: inc/customizer.php:1813
+#: inc/customizer.php:1875
+#: inc/customizer.php:1937
+#: inc/customizer.php:2081
+#: inc/customizer.php:2143
+#: inc/customizer.php:2205
+msgid "Top"
+msgstr "Góra"
+
+#: inc/customizer.php:1814
+#: inc/customizer.php:1831
+#: inc/customizer.php:1876
+#: inc/customizer.php:1893
+#: inc/customizer.php:1938
+#: inc/customizer.php:1955
+#: inc/customizer.php:2082
+#: inc/customizer.php:2099
+#: inc/customizer.php:2144
+#: inc/customizer.php:2161
+#: inc/customizer.php:2206
+#: inc/customizer.php:2223
+msgid "Center"
+msgstr "Środek"
+
+#: inc/customizer.php:1815
+#: inc/customizer.php:1877
+#: inc/customizer.php:1939
+#: inc/customizer.php:2083
+#: inc/customizer.php:2145
+#: inc/customizer.php:2207
+msgid "Bottom"
+msgstr "Dół"
+
+#: inc/customizer.php:1830
+#: inc/customizer.php:1892
+#: inc/customizer.php:1954
+#: inc/customizer.php:2098
+#: inc/customizer.php:2160
+#: inc/customizer.php:2222
+msgid "Left"
+msgstr "Lewy"
+
+#: inc/customizer.php:1832
+#: inc/customizer.php:1894
+#: inc/customizer.php:1956
+#: inc/customizer.php:2100
+#: inc/customizer.php:2162
+#: inc/customizer.php:2224
+msgid "Right"
+msgstr "Prawy"
+
+#: inc/customizer.php:1847
+#: inc/customizer.php:1909
+#: inc/customizer.php:1971
+#: inc/customizer.php:2115
+#: inc/customizer.php:2177
+#: inc/customizer.php:2239
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/customizer.php:1848
+#: inc/customizer.php:1910
+#: inc/customizer.php:1972
+#: inc/customizer.php:2116
+#: inc/customizer.php:2178
+#: inc/customizer.php:2240
+msgid "width 100%"
+msgstr "Szerokość: 100%"
+
+#: inc/customizer.php:1849
+#: inc/customizer.php:1911
+#: inc/customizer.php:1973
+#: inc/customizer.php:2117
+#: inc/customizer.php:2179
+#: inc/customizer.php:2241
+msgid "Height 100%"
+msgstr "Wysokość: 100%"
+
+#: inc/customizer.php:1860
+#: inc/customizer.php:2128
+#: inc/customizer.php:2599
+msgid "Image 2"
+msgstr "Grafika 2"
+
+#: inc/customizer.php:1922
+#: inc/customizer.php:2190
+msgid "Image 3"
+msgstr "Obraz 3"
+
+#: inc/customizer.php:1980
+#: inc/customizer.php:2248
+msgid "Background Video"
+msgstr "Tło wideo"
+
+#: inc/customizer.php:1991
+#: inc/customizer.php:2257
+msgid "Video file"
+msgstr "Plik wideo"
+
+#: inc/customizer.php:1992
+msgid "mp4 format file <br/> Note: Video background doesn't work on mobile devices."
+msgstr ""
+
+#: inc/customizer.php:2002
+#: inc/customizer.php:2269
+msgid "Video thumbnail"
+msgstr "Miniatura wideo"
+
+#: inc/customizer.php:2003
+#: inc/customizer.php:2270
+msgid "This image will appear while the video is downloading. If this is not included, the first frame of the video will be used instead."
+msgstr "Ten obraz pojawi się, gdy film jest pobierany. Jeśli to nie jest włączone, zostanie użyta pierwsza klatka filmu."
+
+#: inc/customizer.php:2024
+#: inc/customizer.php:2291
+msgid "Enable sound"
+msgstr ""
+
+#: inc/customizer.php:2045
+msgid "Select the type of background you want."
+msgstr "Wybierz rodzaj tła, które chcesz."
+
+#: inc/customizer.php:2258
+msgid "mp4 format file"
+msgstr "format mp4"
+
+#: inc/customizer.php:2307
+#: inc/customizer.php:2608
+msgid "Big title section"
+msgstr "Sekcja Duży tytuł"
+
+#: inc/customizer.php:2313
+#: inc/customizer.php:2866
+#: inc/customizer.php:3187
+#: inc/customizer.php:3489
+#: inc/customizer.php:4170
+#: inc/customizer.php:4539
+#: inc/customizer.php:5355
+#: inc/customizer.php:5819
+#: inc/customizer.php:6176
+#: inc/customizer.php:6545
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: inc/customizer.php:2326
+#: inc/customizer.php:2619
+msgid "Hide big title section?"
+msgstr "Ukryć sekcję Duży tytuł?"
+
+#: inc/customizer.php:2327
+#: inc/customizer.php:2620
+msgid "If you check this box, the Big title section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Duży tytuł zniknie ze strony głównej."
+
+#: inc/customizer.php:2335
+#: inc/customizer.php:3232
+msgid "Content"
+msgstr "Zawartość"
+
+#: inc/customizer.php:2343
+#: inc/customizer.php:2628
+#: inc/template-tags.php:489
+msgid "To add a title here please go to Customizer, \"Big title section\""
+msgstr "Aby tutaj dodać tytuł proszę przejść do Customizer, \"Sekcja duży tytuł\""
+
+#: inc/customizer.php:2348
+#: inc/customizer.php:2632
+msgid "Big title"
+msgstr "Duży tytuł"
+
+#: inc/customizer.php:2356
+#: inc/customizer.php:2640
+#: sections/big_title.php:60
+msgid "One button"
+msgstr "Jeden przycisk"
+
+#: inc/customizer.php:2361
+#: inc/customizer.php:2644
+msgid "First button label"
+msgstr "Etykieta pierwszego przycisku"
+
+#: inc/customizer.php:2362
+#: inc/customizer.php:2645
+msgid "This is the text that will appear on the first button"
+msgstr "To jest tekst, który pojawi się na pierwszym przycisku"
+
+#: inc/customizer.php:2375
+#: inc/customizer.php:2657
+msgid "First button link"
+msgstr "Link pierwszego przycisku"
+
+#: inc/customizer.php:2376
+#: inc/customizer.php:2658
+msgid "The first button is linked to this URL"
+msgstr "Do tego URLa linkuje pierwszy przycisk"
+
+#: inc/customizer.php:2384
+#: inc/customizer.php:2666
+#: sections/big_title.php:63
+msgid "Another button"
+msgstr "Kolejny przycisk"
+
+#: inc/customizer.php:2389
+#: inc/customizer.php:2670
+msgid "Second button label"
+msgstr "Etykieta drugiego przycisku"
+
+#: inc/customizer.php:2390
+#: inc/customizer.php:2671
+msgid "This is the text that will appear on the second button"
+msgstr "To jest tekst, który pojawi się na drugim przycisku"
+
+#: inc/customizer.php:2403
+#: inc/customizer.php:2683
+msgid "Second button link"
+msgstr "Link drugiego przycisku"
+
+#: inc/customizer.php:2404
+#: inc/customizer.php:2684
+msgid "The second button is linked to this URL"
+msgstr "Do tego URLa linkuje drugi przycisk"
+
+#. translators: Nivo Slider Lite install link
+#: inc/customizer.php:2413
+msgid "You can replace the homepage slider with any plugin you like, just copy the shortcode generated and paste it here. We recommend you to use %s ."
+msgstr ""
+
+#: inc/customizer.php:2413
+msgid "Nivo Slider"
+msgstr ""
+
+#: inc/customizer.php:2419
+#, fuzzy
+msgid "Slider shortcode"
+msgstr "Źródło"
+
+#: inc/customizer.php:2455
+#: inc/customizer.php:2709
+msgid "Big title color"
+msgstr "Kolor dużego tytułu"
+
+#: inc/customizer.php:2468
+#: inc/customizer.php:2721
+msgid "First button background color"
+msgstr "Kolor tła pierwszego przycisku"
+
+#: inc/customizer.php:2480
+#: inc/customizer.php:2733
+msgid "First button background color - hover"
+msgstr "Kolor tła aktywnego pierwszego przycisku"
+
+#: inc/customizer.php:2493
+#: inc/customizer.php:2745
+msgid "First button text color"
+msgstr "Kolor tekstu pierwszego przycisku"
+
+#: inc/customizer.php:2505
+#: inc/customizer.php:2757
+#, fuzzy
+msgid "First button text color - hover"
+msgstr "Kolor tekstu pierwszego przycisku"
+
+#: inc/customizer.php:2518
+#: inc/customizer.php:2769
+msgid "Second button background color"
+msgstr "Kolor tła drugiego przycisku"
+
+#: inc/customizer.php:2530
+#: inc/customizer.php:2781
+msgid "Second button background color - hover"
+msgstr "Kolor tła aktywnego drugiego przycisku"
+
+#: inc/customizer.php:2543
+#: inc/customizer.php:2793
+msgid "Second button text color"
+msgstr "Kolor tekstu drugiego przycisku"
+
+#: inc/customizer.php:2555
+#: inc/customizer.php:2805
+#, fuzzy
+msgid "Second button text color - hover"
+msgstr "Kolor tekstu drugiego przycisku"
+
+#: inc/customizer.php:2562
+msgid "Parallax effect"
+msgstr "Efekt parallax"
+
+#: inc/customizer.php:2574
+#: inc/customizer.php:2817
+msgid "Use parallax effect?"
+msgstr "Użyć efektu parallax?"
+
+#: inc/customizer.php:2829
+msgid "Parallax image 1"
+msgstr "1 grafika paralaksy"
+
+#: inc/customizer.php:2842
+msgid "Parallax image 2"
+msgstr "2 grafika paralaksy"
+
+#: inc/customizer.php:2860
+#: inc/customizer.php:3031
+msgid "Our focus section"
+msgstr "Sekcja Nasz focus"
+
+#: inc/customizer.php:2879
+#: inc/customizer.php:3043
+msgid "Hide our focus section?"
+msgstr "Ukryć sekcję Nasz focus?"
+
+#: inc/customizer.php:2880
+#: inc/customizer.php:3044
+msgid "If you check this box, the Our focus section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Nasz fokus zniknie ze strony głównej."
+
+#: inc/customizer.php:2888
+#: inc/customizer.php:4192
+#: inc/customizer.php:4573
+#: inc/customizer.php:5841
+#: inc/customizer.php:6198
+#: inc/customizer.php:6567
+msgid "Header"
+msgstr "Nagłówek"
+
+#: inc/customizer.php:2896
+#: inc/customizer.php:3053
+msgid "Our Focus"
+msgstr "Nasz fokus"
+
+#: inc/customizer.php:2901
+#: inc/customizer.php:3057
+#: inc/customizer.php:3245
+#: inc/customizer.php:3394
+#: inc/customizer.php:3524
+#: inc/customizer.php:3906
+#: inc/customizer.php:4205
+#: inc/customizer.php:4384
+#: inc/customizer.php:4586
+#: inc/customizer.php:4717
+#: inc/customizer.php:5439
+#: inc/customizer.php:5640
+#: inc/customizer.php:5854
+#: inc/customizer.php:5998
+#: inc/customizer.php:6211
+#: inc/customizer.php:6392
+#: inc/customizer.php:6580
+#: inc/customizer.php:6698
+msgid "Main title"
+msgstr "Główny tytuł"
+
+#: inc/customizer.php:2909
+#: inc/customizer.php:3065
+#: inc/template-tags.php:363
+msgid "Add a subtitle in Customizer, \"Our focus section\""
+msgstr "Dodaj podtytuł w Customizer, \"Sekcja nasz fokus\""
+
+#: inc/customizer.php:2949
+#: inc/customizer.php:3094
+#: inc/customizer.php:3313
+#: inc/customizer.php:3444
+msgid "Main title and subtitle colors"
+msgstr "Kolor głównego tytułu i podtytułu"
+
+#: inc/customizer.php:2962
+#: inc/customizer.php:3106
+msgid "Box title color"
+msgstr "Kolor tytułu w boksie"
+
+#: inc/customizer.php:2975
+#: inc/customizer.php:3118
+msgid "Box text color"
+msgstr "Kolor tekstu w boksie"
+
+#: inc/customizer.php:2987
+#: inc/customizer.php:3130
+msgid "First box border color hover"
+msgstr "Kolor ramki aktywnego boksu pierwszego"
+
+#: inc/customizer.php:2999
+#: inc/customizer.php:3142
+msgid "Second box border color hover"
+msgstr "Kolor ramki aktywnego boksu drugiego"
+
+#: inc/customizer.php:3011
+#: inc/customizer.php:3153
+msgid "Third box border color hover"
+msgstr "Kolor ramki aktywnego boksu trzeciego"
+
+#: inc/customizer.php:3023
+#: inc/customizer.php:3165
+msgid "Fourth box border color hover"
+msgstr "Kolor ramki aktywnego boksu czwartego"
+
+#: inc/customizer.php:3181
+#: inc/customizer.php:3346
+msgid "Portfolio section"
+msgstr "Sekcja Portfolio"
+
+#: inc/customizer.php:3199
+#: inc/customizer.php:3357
+msgid "Hide portfolio section?"
+msgstr "Ukryć sekcję Portfolio?"
+
+#: inc/customizer.php:3200
+#: inc/customizer.php:3358
+msgid "If you check this box, the Portfolio section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Portfolio zniknie ze strony głównej."
+
+#: inc/customizer.php:3212
+#: inc/customizer.php:3370
+msgid "Open portfolio in a lightbox?"
+msgstr ""
+
+#: inc/customizer.php:3224
+#: inc/customizer.php:3382
+msgid "Maximum number of portfolios to display on homepage"
+msgstr "Maksymalna liczba wyświetlanych portfolio na stronie głównej"
+
+#: inc/customizer.php:3253
+#: inc/customizer.php:3402
+#: sections/portfolio.php:65
+msgid "Portfolio subtitle"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:3266
+msgid "Single page"
+msgstr "Pojedyncza strona"
+
+#: inc/customizer.php:3277
+#: inc/customizer.php:3418
+msgid "Full width page?"
+msgstr "Pełna szerokość strony?"
+
+#: inc/customizer.php:3278
+#: inc/customizer.php:3419
+msgid "If you check this box, the single portfolio page will be full width, with no sidebar."
+msgstr "Jeśli zaznaczysz to pole, pojedyncza strona portfolio będzie miała pełną szerokość, bez paska bocznego."
+
+#: inc/customizer.php:3326
+#: inc/customizer.php:3456
+msgid "Portfolio box texts"
+msgstr "Tekstu boksu Portfolio"
+
+#: inc/customizer.php:3338
+#: inc/customizer.php:3468
+#, fuzzy
+msgid "Portfolio box title undeline color"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:3484
+#: inc/customizer.php:3882
+msgid "About us section"
+msgstr "Sekcja O nas"
+
+#: inc/customizer.php:3502
+#: inc/customizer.php:3893
+msgid "Hide about us section?"
+msgstr "Ukryć sekcję O nas?"
+
+#: inc/customizer.php:3503
+#: inc/customizer.php:3894
+msgid "If you check this box, the About us section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole sekcja O nas zniknie ze strony głównej."
+
+#: inc/customizer.php:3511
+#: inc/customizer.php:5426
+#: inc/customizer.php:6232
+msgid "Main content"
+msgstr "Główna zawartość"
+
+#: inc/customizer.php:3519
+#: inc/customizer.php:3902
+#: inc/template-tags.php:507
+msgid "About US"
+msgstr "O nas"
+
+#: inc/customizer.php:3532
+#: inc/customizer.php:3914
+#: inc/template-tags.php:525
+msgid "Add a subtitle in Customizer, \"About us section\""
+msgstr "Dodaj podtytuł w Customizer, \"sekcja O nas\""
+
+#: inc/customizer.php:3549
+#: inc/customizer.php:3930
+msgid "Left side content"
+msgstr "Treść lewa"
+
+#: inc/customizer.php:3557
+#: inc/customizer.php:3938
+#: sections/about_us.php:47
+msgid "You can add here a large piece of text. For that, please go in the Admin Area, Customizer, \"About us section\""
+msgstr "Tutaj możesz dodać duży kawałek tekstu. W tym celu przejdź do Customizer, \"sekcja O nas\""
+
+#: inc/customizer.php:3561
+#: inc/customizer.php:3942
+msgid "Middle content"
+msgstr "Treść środkowa"
+
+#: inc/customizer.php:3569
+msgid "Feature no#1"
+msgstr "Cecha nr 1"
+
+#: inc/customizer.php:3577
+#: inc/customizer.php:3635
+#: inc/customizer.php:3693
+#: inc/customizer.php:3751
+#: inc/customizer.php:3950
+#: inc/customizer.php:3986
+#: inc/customizer.php:4022
+#: inc/customizer.php:4058
+#: sections/about_us.php:50
+#: sections/about_us.php:54
+#: sections/about_us.php:58
+#: sections/about_us.php:62
+msgid "Feature"
+msgstr "Funkcja"
+
+#: inc/customizer.php:3607
+#: inc/customizer.php:3665
+msgid "Percentage"
+msgstr "Procenty"
+
+#: inc/customizer.php:3619
+#: inc/customizer.php:3677
+#: inc/customizer.php:3735
+#: inc/customizer.php:3793
+#, fuzzy
+msgid "Knob Color"
+msgstr "Kolor:"
+
+#: inc/customizer.php:3627
+msgid "Feature no#2"
+msgstr "Cecha nr 2"
+
+#: inc/customizer.php:3685
+msgid "Feature no#3"
+msgstr "Cecha nr 3"
+
+#: inc/customizer.php:3723
+#: inc/customizer.php:4050
+msgid "Feature no3 percentage"
+msgstr "Procent 3 cechy"
+
+#: inc/customizer.php:3743
+msgid "Feature no#4"
+msgstr "Cecha nr 4"
+
+#: inc/customizer.php:3781
+#: inc/customizer.php:4086
+msgid "Feature no4 percentage"
+msgstr "Procent 4 cechy"
+
+#: inc/customizer.php:3840
+#: inc/customizer.php:4135
+#, fuzzy
+msgid "Numbers color"
+msgstr "Kolor podtematu"
+
+#: inc/customizer.php:3853
+#: inc/customizer.php:4147
+#, fuzzy
+msgid "Clients title color"
+msgstr "Kolor dużego tytułu"
+
+#: inc/customizer.php:3861
+msgid "Clients area title"
+msgstr "Tytuł obszaru Klienci"
+
+#: inc/customizer.php:3868
+#: inc/customizer.php:4118
+#: sections/about_us.php:304
+#: sections/about_us.php:314
+msgid "OUR HAPPY CLIENTS"
+msgstr "NASI ZADOWOLENI KLIENCI"
+
+#: inc/customizer.php:3874
+#: inc/customizer.php:4123
+msgid "This title appears only if you have widgets in the About us sidebar."
+msgstr "Tytuł ten pojawi się tylko jeśli masz widgety O nas w pasku bocznym."
+
+#: inc/customizer.php:3954
+msgid "Feature no1 title"
+msgstr "Tytuł 1 cechy"
+
+#: inc/customizer.php:3965
+msgid "Feature no1 text"
+msgstr "Tekst 1 cechy"
+
+#: inc/customizer.php:3978
+msgid "Feature no1 percentage"
+msgstr "Procent 1 cechy"
+
+#: inc/customizer.php:3990
+msgid "Feature no2 title"
+msgstr "Tytuł 2 cechy"
+
+#: inc/customizer.php:4001
+msgid "Feature no2 text"
+msgstr "Tekst 2 cechy"
+
+#: inc/customizer.php:4014
+msgid "Feature no2 percentage"
+msgstr "Procent 2 cechy"
+
+#: inc/customizer.php:4026
+msgid "Feature no3 title"
+msgstr "Tytuł 3 cechy"
+
+#: inc/customizer.php:4037
+msgid "Feature no3 text"
+msgstr "Tekst 3 cechy"
+
+#: inc/customizer.php:4062
+msgid "Feature no4 title"
+msgstr "Tytuł 4 cechy"
+
+#: inc/customizer.php:4073
+msgid "Feature no4 text"
+msgstr "Tekst 4 cechy"
+
+#: inc/customizer.php:4122
+msgid "Clients widgets area title"
+msgstr "Tytuł obszaru widgetu Klienci"
+
+#: inc/customizer.php:4164
+#: inc/customizer.php:4360
+msgid "Our team section"
+msgstr "Sekcja Nasz team"
+
+#: inc/customizer.php:4183
+#: inc/customizer.php:4371
+msgid "Hide our team section?"
+msgstr "Ukryć sekcję Nasz team?"
+
+#: inc/customizer.php:4184
+#: inc/customizer.php:4372
+msgid "If you check this box, the Our team section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Nasz zespół zniknie ze strony głównej."
+
+#: inc/customizer.php:4200
+#: inc/customizer.php:4380
+msgid "Our Team"
+msgstr "Nasz zespół"
+
+#: inc/customizer.php:4213
+#: inc/customizer.php:4392
+msgid "Add a subtitle in Customizer, \"Our team section\""
+msgstr "Dodaj podtytuł w Customizer, \"Sekcja nasz zespół\""
+
+#: inc/customizer.php:4267
+#: inc/customizer.php:4433
+msgid "Team member hover description color"
+msgstr "Kolor aktywnego opisu zespołu "
+
+#: inc/customizer.php:4279
+#: inc/customizer.php:4445
+#, fuzzy
+msgid "Team member hover description background color"
+msgstr "Kolor aktywnego opisu zespołu "
+
+#: inc/customizer.php:4292
+#: inc/customizer.php:4457
+msgid "Social icons colors"
+msgstr "Kolor ikon społecznych"
+
+#: inc/customizer.php:4304
+#: inc/customizer.php:4469
+msgid "Social icons colors - hover"
+msgstr "Kolor ikon społecznych - aktywnych"
+
+#: inc/customizer.php:4316
+#: inc/customizer.php:4481
+#, fuzzy
+msgid "First box title underline color"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:4328
+#: inc/customizer.php:4493
+#, fuzzy
+msgid "Second box title underline color"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:4340
+#: inc/customizer.php:4505
+#, fuzzy
+msgid "Third box title underline color"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:4352
+#: inc/customizer.php:4517
+#, fuzzy
+msgid "Fourth box title underline color"
+msgstr "Podtytuł Portfolio"
+
+#: inc/customizer.php:4533
+#: inc/customizer.php:4693
+msgid "Testimonials section"
+msgstr "Sekcja Referencji"
+
+#: inc/customizer.php:4552
+#: inc/customizer.php:4704
+msgid "Hide testimonials section?"
+msgstr "Ukryć sekcję Referencji?"
+
+#: inc/customizer.php:4553
+#: inc/customizer.php:4705
+msgid "If you check this box, the Testimonials section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Referencje zniknie ze strony głównej."
+
+#: inc/customizer.php:4564
+msgid "Use pinterest layout?"
+msgstr "Użyć layoutu pinterest?"
+
+#: inc/customizer.php:4565
+msgid "If you check this box, the Testimonials section will use pinterest-style layout."
+msgstr "Jeśli zaznaczysz to pole, sekcja Referencje użyje stylu Pinterest."
+
+#: inc/customizer.php:4633
+#: inc/customizer.php:4753
+#: inc/customizer.php:5901
+#: inc/customizer.php:6022
+#: inc/customizer.php:6627
+#: inc/customizer.php:6735
+msgid "Title and subtitle colors"
+msgstr "Kolor tytułu i podtytułu"
+
+#: inc/customizer.php:4646
+#: inc/customizer.php:4765
+msgid "Testimonial text color"
+msgstr "Kolor tekstu referencji"
+
+#: inc/customizer.php:4659
+#: inc/customizer.php:4777
+msgid "Testimonial author name color"
+msgstr "Kolor nazwy autora referencji"
+
+#: inc/customizer.php:4672
+#: inc/customizer.php:4789
+msgid "Testimonial quote color"
+msgstr "Kolor cytatów referencji"
+
+#: inc/customizer.php:4685
+#: inc/customizer.php:4802
+#, fuzzy
+msgid "Testimonial box background color"
+msgstr "Kolor tła drugiego przycisku"
+
+#: inc/customizer.php:4819
+#: inc/customizer.php:5107
+msgid "Ribbon sections"
+msgstr "Sekcja Ribbon"
+
+#: inc/customizer.php:4823
+msgid "BottomButton Ribbon"
+msgstr "Ribbon dolny przycisk"
+
+#: inc/customizer.php:4837
+#: inc/customizer.php:4960
+msgid "Main text"
+msgstr "Tekst główny"
+
+#: inc/customizer.php:4850
+#: inc/customizer.php:4973
+#: inc/customizer.php:5131
+#: inc/customizer.php:5241
+msgid "The button link must be filled too, for the button to show up."
+msgstr "Link przycisku musi być również wypełniony, aby przycisk pokazał się."
+
+#: inc/customizer.php:4863
+#: inc/customizer.php:4986
+#: inc/customizer.php:5143
+#: inc/customizer.php:5253
+msgid "The button label must be filled too, for the button to show up."
+msgstr "Etykieta przycisku musi być również wypełniona, aby przycisk pokazał się."
+
+#: inc/customizer.php:4903
+#: inc/customizer.php:5026
+#: inc/customizer.php:6640
+#: inc/customizer.php:6747
+msgid "Button background color"
+msgstr "Kolor tła przycisku"
+
+#: inc/customizer.php:4915
+#: inc/customizer.php:5038
+msgid "Button background color hover"
+msgstr "Kolor tła przycisku aktywnego"
+
+#: inc/customizer.php:4928
+#: inc/customizer.php:5051
+#: inc/customizer.php:5204
+#: inc/customizer.php:5314
+#: inc/customizer.php:6665
+#: inc/customizer.php:6771
+msgid "Button text color"
+msgstr "Kolor tekstu na przycisku"
+
+#: inc/customizer.php:4940
+#: inc/customizer.php:5063
+#: inc/customizer.php:5216
+#: inc/customizer.php:5326
+#, fuzzy
+msgid "Button text color hover"
+msgstr "Kolor tekstu na przycisku"
+
+#: inc/customizer.php:4948
+msgid "RightButton Ribbon"
+msgstr "Ribbon prawy przycisk"
+
+#: inc/customizer.php:5071
+#, fuzzy
+msgid "Shortcodes section"
+msgstr "Pokazać sekcję pakiety?"
+
+#: inc/customizer.php:5082
+#, fuzzy
+msgid "Hide shortcodes section?"
+msgstr "Ukryć sekcję Nasz team?"
+
+#: inc/customizer.php:5083
+#, fuzzy
+msgid "If you check this box, the Shortcodes section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Portfolio zniknie ze strony głównej."
+
+#: inc/customizer.php:5093
+msgid "Edit the shortcode options"
+msgstr ""
+
+#: inc/customizer.php:5119
+msgid "BottomButton Ribbon - Main text"
+msgstr "BottomButton Ribbon - tekst główny"
+
+#: inc/customizer.php:5130
+msgid "BottomButton Ribbon - Button label"
+msgstr "BottomButton Ribbon - etykieta przycisku"
+
+#: inc/customizer.php:5142
+msgid "BottomButton Ribbon - Button link"
+msgstr "BottomButton Ribbon - link przycisku"
+
+#: inc/customizer.php:5155
+msgid "BottomButton Ribbon - background color"
+msgstr "BottomButton Ribbon - kolor tła"
+
+#: inc/customizer.php:5168
+msgid "BottomButton Ribbon - text color"
+msgstr "BottomButton Ribbon - kolor tekstu"
+
+#: inc/customizer.php:5180
+msgid "BottomButton Ribbon - button background color"
+msgstr "BottomButton Ribbon - kolor tła przycisku"
+
+#: inc/customizer.php:5192
+msgid "BottomButton Ribbon - button background color hover"
+msgstr "BottomButton Ribbon - kolor tła przycisku aktywnego"
+
+#: inc/customizer.php:5229
+msgid "RightButton Ribbon - Main text"
+msgstr "RightButton Ribbon - tekst główny"
+
+#: inc/customizer.php:5240
+msgid "RightButton Ribbon - Button label"
+msgstr "RightButton Ribbon - etykieta przycisku"
+
+#: inc/customizer.php:5252
+msgid "RightButton Ribbon - Button link"
+msgstr "RightButton Ribbon - link przycisku"
+
+#: inc/customizer.php:5265
+msgid "RightButton Ribbon - section background"
+msgstr "RightButton Ribbon - tło sekcji"
+
+#: inc/customizer.php:5278
+msgid "RightButton Ribbon - color text"
+msgstr "RightButton Ribbon - kolor tekstu"
+
+#: inc/customizer.php:5290
+msgid "RightButton Ribbon - button background color"
+msgstr "RightButton Ribbon - kolor tła przycisku"
+
+#: inc/customizer.php:5302
+msgid "RightButton Ribbon - button background color hover"
+msgstr "RightButton Ribbon - kolor tła aktywnego przycisku"
+
+#: inc/customizer.php:5343
+#: inc/customizer.php:5615
+msgid "Contact us section"
+msgstr "Sekcja kontakt"
+
+#. translators: Pirate Forms settings page
+#: inc/customizer.php:5351
+#: inc/customizer.php:5611
+msgid "To have access to more customization options for the contact us section please visit the %s settings page."
+msgstr ""
+
+#: inc/customizer.php:5351
+#: inc/customizer.php:5611
+msgid "Pirate Forms"
+msgstr ""
+
+#: inc/customizer.php:5369
+#: inc/customizer.php:5627
+msgid "Hide contact us section?"
+msgstr "Ukryć sekcję kontakt?"
+
+#: inc/customizer.php:5370
+#: inc/customizer.php:5628
+msgid "If you check this box, the Contact us section will disappear from homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Kontakt zniknie ze strony głównej."
+
+#: inc/customizer.php:5381
+#: inc/customizer.php:5662
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#: inc/customizer.php:5382
+#: inc/customizer.php:5663
+msgid "The contact us form is submitted to this email address."
+msgstr "Formularz skontaktuj się z nami jest przesyłany na ten adres e-mail."
+
+#: inc/customizer.php:5394
+msgid "Hide reCaptcha?"
+msgstr "Ukryć reCaptcha?"
+
+#: inc/customizer.php:5395
+msgid "If you check this box, the reCaptcha will not be enabled on the Contact us form."
+msgstr "Jeśli zaznaczysz tę opcję, reCaptcha nie będzie włączona dla formularza kontaktowego."
+
+#: inc/customizer.php:5406
+msgid "Site key"
+msgstr "Klucz strony"
+
+#: inc/customizer.php:5407
+msgid "Create an account here"
+msgstr "Stwórz konto tutaj"
+
+#: inc/customizer.php:5407
+msgid " to get the Site key and the Secret key for the reCaptcha."
+msgstr ""
+
+#: inc/customizer.php:5418
+msgid "Secret key"
+msgstr "Klucz poufny"
+
+#: inc/customizer.php:5434
+#: inc/customizer.php:5636
+msgid "Get in touch"
+msgstr "Pozostań w kontakcie"
+
+#: inc/customizer.php:5464
+#: inc/customizer.php:5687
+msgid "Placeholder for \"Your Name\" input "
+msgstr "Tekst zastępczy pola \"Twoje imię\""
+
+#: inc/customizer.php:5477
+#: inc/customizer.php:5699
+msgid "Placeholder for \"Your Email\" input"
+msgstr "Tekst zastępczy pola \"Twój e-mail\""
+
+#: inc/customizer.php:5490
+#: inc/customizer.php:5711
+msgid "Placeholder for \"Subject\" input"
+msgstr "Tekst zastępczy pola \"Temat\""
+
+#: inc/customizer.php:5503
+#: inc/customizer.php:5723
+msgid "Placeholder for \"Message\" input"
+msgstr "Tekst zastępczy pola \"Wiadomość\""
+
+#: inc/customizer.php:5516
+#: inc/customizer.php:5675
+msgid "Send message button label"
+msgstr "Etykiety przycisku wyślij wiadomość"
+
+#: inc/customizer.php:5551
+#: inc/customizer.php:5748
+msgid "Title and subtitle color"
+msgstr "Kolor tytułu i podtytułu"
+
+#: inc/customizer.php:5564
+#: inc/customizer.php:5760
+msgid "Submit button background color"
+msgstr "Kolor tła przycisku wyślij"
+
+#: inc/customizer.php:5576
+#: inc/customizer.php:5772
+msgid "Submit button background color - hover"
+msgstr "Kolor tła przycisku wyślij - aktywny"
+
+#: inc/customizer.php:5589
+#: inc/customizer.php:5784
+#, fuzzy
+msgid "Submit button color"
+msgstr "Kolor tła przycisku wyślij"
+
+#: inc/customizer.php:5601
+#: inc/customizer.php:5796
+#, fuzzy
+msgid "Submit button color - hover"
+msgstr "Kolor tła przycisku wyślij - aktywny"
+
+#: inc/customizer.php:5813
+#: inc/customizer.php:5974
+msgid "Packages section"
+msgstr "Sekcja pakiety"
+
+#: inc/customizer.php:5832
+#: inc/customizer.php:5985
+msgid "Show packages section?"
+msgstr "Pokazać sekcję pakiety?"
+
+#: inc/customizer.php:5833
+#: inc/customizer.php:5986
+msgid "If you check this box, the Packages section will appear on homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Pakiety pojawi się na stronie głównej."
+
+#: inc/customizer.php:5849
+#: inc/customizer.php:5994
+msgid "PACKAGES"
+msgstr "PAKIETY"
+
+#: inc/customizer.php:5862
+#: inc/customizer.php:6006
+msgid "We have 4 friendly packages for you. Check all the packages and choose the right one for you."
+msgstr "Mamy 4 przyjazne pakiety dla Ciebie. Sprawdź wszystkie pakiety i wybierz odpowiedni dla Ciebie."
+
+#: inc/customizer.php:5914
+#: inc/customizer.php:6034
+msgid "Package title color"
+msgstr "Kolor tytułu pakietu"
+
+#: inc/customizer.php:5927
+#: inc/customizer.php:6046
+msgid "Package text color"
+msgstr "Kolor tekstu pakietu"
+
+#: inc/customizer.php:5940
+#: inc/customizer.php:6058
+msgid "Package button text color"
+msgstr "Kolor tekstu przycisku cennika"
+
+#: inc/customizer.php:5953
+#: inc/customizer.php:6070
+msgid "Package price background color"
+msgstr "Kolor tła cennika"
+
+#: inc/customizer.php:5966
+#: inc/customizer.php:6082
+msgid "Package price color"
+msgstr "Kolor cennika"
+
+#: inc/customizer.php:6094
+msgid "Google map section"
+msgstr "Sekcja mapy Google"
+
+#: inc/customizer.php:6105
+msgid "Show google map section?"
+msgstr "Pokazać sekcję mapy Google?"
+
+#: inc/customizer.php:6106
+msgid "If you check this box, the Google map section will appear on homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja mapy Google pojawi się na stronie głównej."
+
+#: inc/customizer.php:6114
+#: sections/google_map.php:8
+msgid "New York, Leroy Street"
+msgstr "New York, Leroy Street"
+
+#: inc/customizer.php:6118
+msgid "Google map address"
+msgstr "Adres mapy Google"
+
+#: inc/customizer.php:6130
+msgid "Show STATIC google map ?"
+msgstr "Pokazać STATYCZNĄ mapę Google?"
+
+#: inc/customizer.php:6131
+msgid "If you check this box, the Google map section will display as a static google map."
+msgstr "Jeśli zaznaczysz to pole, sekcja mapy Google będzie wyświetlać się jako statyczna mapa google."
+
+#: inc/customizer.php:6144
+msgid "Intergeo Shortcode"
+msgstr ""
+
+#: inc/customizer.php:6170
+#: inc/customizer.php:6368
+msgid "Latest news section"
+msgstr "Sekcja ostatnich wiadomości"
+
+#: inc/customizer.php:6189
+#: inc/customizer.php:6379
+msgid "Show latest news section?"
+msgstr "Pokazać sekcję ostatnich wiadomości?"
+
+#: inc/customizer.php:6190
+#: inc/customizer.php:6380
+msgid "If you check this box, the Latest news section will appear on homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja ostatnich wiadomości pojawi się na stronie głównej."
+
+#: inc/customizer.php:6206
+#: inc/customizer.php:6388
+#: inc/template-tags.php:453
+msgid "LATEST NEWS"
+msgstr "OSTATNIE WIADOMOŚCI"
+
+#: inc/customizer.php:6219
+#: inc/customizer.php:6400
+#: inc/template-tags.php:471
+msgid "Add a subtitle in Customizer, \"Latest news section\""
+msgstr "Dodaj podtytuł w Customizer, \"Sekcja ostatnie wiadomości\""
+
+#: inc/customizer.php:6273
+#: inc/customizer.php:6431
+msgid "Title color"
+msgstr "Kolor tematu"
+
+#: inc/customizer.php:6286
+#: inc/customizer.php:6444
+msgid "Subtitle color"
+msgstr "Kolor podtematu"
+
+#: inc/customizer.php:6299
+#: inc/customizer.php:6457
+#, fuzzy
+msgid "Post title color"
+msgstr "Kolor tytułu w boksie"
+
+#: inc/customizer.php:6311
+#: inc/customizer.php:6470
+msgid "Post title underline color - first box"
+msgstr ""
+
+#: inc/customizer.php:6323
+#: inc/customizer.php:6483
+msgid "Post title underline color - second box"
+msgstr ""
+
+#: inc/customizer.php:6335
+#: inc/customizer.php:6496
+msgid "Post title underline color - third box"
+msgstr ""
+
+#: inc/customizer.php:6347
+#: inc/customizer.php:6509
+msgid "Post title underline color - fourth box"
+msgstr ""
+
+#: inc/customizer.php:6360
+#: inc/customizer.php:6522
+#, fuzzy
+msgid "Post content color"
+msgstr "Kolor tekstu w boksie"
+
+#: inc/customizer.php:6539
+#: inc/customizer.php:6673
+msgid "Subscribe section"
+msgstr "Sekcja subskrypcji"
+
+#: inc/customizer.php:6558
+#: inc/customizer.php:6685
+msgid "Show subscribe section?"
+msgstr "Pokazać sekcję subskrypcji?"
+
+#: inc/customizer.php:6559
+#: inc/customizer.php:6686
+msgid "If you check this box, the Subscribe section will appear on homepage."
+msgstr "Jeśli zaznaczysz to pole, sekcja Subskrybuj pojawi się na stronie głównej."
+
+#: inc/customizer.php:6575
+#: inc/customizer.php:6694
+msgid "STAY IN TOUCH"
+msgstr "POZOSTAŃ W KONTAKCIE"
+
+#: inc/customizer.php:6588
+#: inc/customizer.php:6706
+msgid "Sign Up for Email Updates on on News & Offers"
+msgstr "Otrzymuj wiadomości o zmianach, nowościach i ofertach"
+
+#: inc/customizer.php:6652
+#: inc/customizer.php:6759
+msgid "Button background color - hover"
+msgstr "Kolor tła przycisku - aktywny"
+
+#: inc/customizer.php:6675
+msgid "For this section to work properly, you must add the \"SendinBlue Widget\" to the \"Subscribe section\" widgets area"
+msgstr "Aby ta sekcja działała prawidłowo, musisz dodać \"Widget SendinBlue\" do \"Sekcji subskrypcji\" w obszarze widgetów"
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr "Nawigacja wpisów"
+
+#: inc/template-tags.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starsze wpisy"
+
+#: inc/template-tags.php:25
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:47
+msgid "Post navigation"
+msgstr "Nawigacja wpisów"
+
+#. translators: 1 - Publish date, 2 - Author name
+#: inc/template-tags.php:76
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Zamieszczone %1$s</span><span class=\"byline\"> przez %2$s</span>"
+
+#. translators: Page number
+#: inc/template-tags.php:182
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: inc/template-tags.php:221
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Strony nie znaleziono."
+
+#: inc/template-tags.php:230
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Wygląda na to, nic nie zostało znalezione w tym miejscu. Może spróbuj jednego z poniższych linków lub wyszukiwania?"
+
+#. translators: Author name
+#: inc/template-tags.php:265
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: Day
+#: inc/template-tags.php:268
+msgid "Day: %s"
+msgstr "Dzień: %s"
+
+#. translators: Month
+#: inc/template-tags.php:271
+msgid "Month: %s"
+msgstr "Miesiąc: %s"
+
+#. translators: Year
+#: inc/template-tags.php:274
+msgid "Year: %s"
+msgstr "Rok: %s"
+
+#: inc/template-tags.php:276
+msgid "Asides"
+msgstr "Wydzielone"
+
+#: inc/template-tags.php:278
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: inc/template-tags.php:280
+msgid "Images"
+msgstr "Obrazy"
+
+#: inc/template-tags.php:282
+msgid "Videos"
+msgstr "Wideo"
+
+#: inc/template-tags.php:284
+msgid "Quotes"
+msgstr "Cytaty"
+
+#: inc/template-tags.php:286
+msgid "Links"
+msgstr "Linki"
+
+#: inc/template-tags.php:288
+msgid "Statuses"
+msgstr "Statusy"
+
+#: inc/template-tags.php:290
+msgid "Audios"
+msgstr "Audio"
+
+#: inc/template-tags.php:292
+msgid "Chats"
+msgstr "Czaty"
+
+#: inc/template-tags.php:294
+#: sidebar.php:25
+msgid "Archives"
+msgstr "Archiwa"
+
+#: inc/template-tags.php:608
+#, fuzzy
+msgid "Primary Menu "
+msgstr "Główne menu"
+
+#. translators: Search query
+#: search.php:26
+msgid "Search Results for: %s"
+msgstr "Wynik wyszukiwania dla: %s"
+
+#: sections/big_title.php:85
+msgid "Edit left button."
+msgstr ""
+
+#: sections/big_title.php:103
+msgid "Edit right button."
+msgstr ""
+
+#: sections/latest_news.php:162
+msgid "Previous"
+msgstr "Poprzednie"
+
+#: sections/latest_news.php:166
+msgid "Next"
+msgstr "Następne"
+
+#: sections/portfolio.php:152
+#, fuzzy
+msgid "Close"
+msgstr "Kolory"
+
+#: sections/portfolio.php:240
+msgid "Go Back"
+msgstr "Wróć"
+
+#: sidebar.php:41
+msgid "Meta"
+msgstr "Meta"
+
+#: ti-about-page/class-themeisle-about-page.php:1073
+#, fuzzy
+msgid "Activating"
+msgstr "Aktywować"
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "Zerif PRO"
+msgstr "Zerif PRO"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/"
+msgstr "https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Template Name of the plugin/theme
+msgid "Blog template with large images"
+msgstr "Szablon bloga z dużymi obrazami"
+
+#. Template Name of the plugin/theme
+msgid "Blog template"
+msgstr "Szablon bloga"
+
+#. Template Name of the plugin/theme
+msgid "Full width, no title (SiteOrigin Page builder Template)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full width template"
+msgstr "Pełna szerokość szablonu"
+
+#: class-tgm-plugin-activation.php:1222
+#: class-tgm-plugin-activation.php:3054
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "i"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2448
+#, fuzzy
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2494
+#, fuzzy
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Wszystkie <span class=\"count\">(%s)</span>"
+msgstr[1] "Wszystkie <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2588
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "nieznana"
+
+#. translators: %s: post title
+#: comments.php:39
+#, fuzzy
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Jedna myśl dla &ldquo;%2$s&rdquo;"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:43
+#, fuzzy
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna myśl dla &ldquo;%2$s&rdquo;"
+msgstr[1] "Jedna myśl dla &ldquo;%2$s&rdquo;"
+
+#: inc/class/class-zerif-packages-widget.php:26
+msgctxt "widget title"
+msgid "Zerif - Package widget"
+msgstr "Widget pakietów Zerif"
+
+#: inc/template-tags.php:50
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:51
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:271
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "M"
+
+#: inc/template-tags.php:274
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "R"
+
+#~ msgid "All plugins installed and activated successfully. %s"
+#~ msgstr "Wszystkie wtyczki zainstalowane i aktywowane pomyślnie. %s"
+
+#, fuzzy
+#~ msgid "Actions required"
+#~ msgstr "Sekcje zamówień"
+
+#, fuzzy
+#~ msgid "Get now"
+#~ msgstr "Pozostań w kontakcie"
+
+#, fuzzy
+#~ msgid "Install %s now"
+#~ msgstr "Zainstalowano %2$s"
+
+#, fuzzy
+#~ msgid "Translate %1$s"
+#~ msgstr "Oznaczono %1$s"
+
+#, fuzzy
+#~ msgid "Slider in big title section"
+#~ msgstr "Ukryć sekcję Duży tytuł?"
+
+#, fuzzy
+#~ msgid "Link Menu to sections"
+#~ msgstr "Sekcja Ribbon"
+
+#, fuzzy
+#~ msgid "Install Visualizer"
+#~ msgstr "Zainstaluj wtyczki"
+
+#, fuzzy
+#~ msgid "Install Revive Old Post"
+#~ msgstr "Zainstaluj wymagane wtyczki"
+
+#~ msgid "Image:"
+#~ msgstr "Zdjęcie:"
+
+#~ msgid "Open in new tab"
+#~ msgstr "Otwórz w nowej zakładce"
+
+#, fuzzy
+#~ msgid "Open links in new window?"
+#~ msgstr "Otwórz w nowej zakładce"
+
+#~ msgid "Item 2"
+#~ msgstr "Pozycja 2"
+
+#~ msgid "Item 3"
+#~ msgstr "Pozycja 3"
+
+#~ msgid "Item 4"
+#~ msgstr "Pozycja 4"
+
+#~ msgid "Item 5"
+#~ msgstr "Pozycja 5"
+
+#~ msgid "Item 6"
+#~ msgstr "Pozycja 6"
+
+#~ msgid "Item 7"
+#~ msgstr "Pozycja 7"
+
+#~ msgid "Item 8"
+#~ msgstr "Pozycja 8"
+
+#~ msgid "Item 9"
+#~ msgstr "Pozycja 9"
+
+#~ msgid "Item 10"
+#~ msgstr "Pozycja 10"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Return to the dashboard"
+#~ msgstr "Powrót do panelu."
+
+#~ msgid "If you check this box, the preloader will be disabled from homepage."
+#~ msgstr ""
+#~ "Jeśli zaznaczysz to pole, preloader zostanie wyłączony na stronie głównej."
+
+#~ msgid "If you check this box, the smooth scroll will be disabled."
+#~ msgstr "Jeśli zaznaczysz to pole, gładkie przewijanie będzie wyłączone."
+
+#~ msgid "Header texts color"
+#~ msgstr "Kolor tekstu nagłówka"
+
+#~ msgid "This theme requires the following plugin: %1$s."
+
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "Ten szablon wymaga następujące wtyczki: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "Ten szablon zaleca następujące wtyczki: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugin."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugins."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby zainstalować "
+#~ "wtyczkę %1$s"
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "Poniższy plugin musi zostać zaktualizowany do najnowszej wersji, aby "
+#~ "zapewnić maksymalną zgodność z tym szablonem: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "There is an update available for: %1$s."
+
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "Dostępna aktualizacja dla: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugin."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugins."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby zaktualizować "
+#~ "wtyczkę %1$s"
+#~ msgstr[1] ""
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Następująca wymagana wtyczka jest obecnie nieaktywna: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Następująca rekomendowana wtyczka jest obecnie nieaktywna: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugin."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugins."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby włączyć wtyczkę %1"
+#~ "$s"
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin installed."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins installed."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby zainstalować "
+#~ "wtyczkę %s. Skontaktuj się z administratorem tej strony w celu uzyskania "
+#~ "pomocy w instalacji."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin activated."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins activated."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby aktywować wtyczkę %"
+#~ "s. Skontaktuj się z administratorem tej strony w celu uzyskania pomocy w "
+#~ "aktywacji."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin updated."
+
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins updated."
+#~ msgstr[0] ""
+#~ "Przepraszamy, ale nie masz odpowiednich uprawnień, aby zaktualizować "
+#~ "wtyczkę %s. Skontaktuj się z administratorem tej strony w celu uzyskania "
+#~ "pomocy w aktualizacji."
+#~ msgstr[1] ""
+
+#~ msgid "Section button color"
+#~ msgstr "Kolor przycisku sekcji"
+
+#~ msgid ""
+#~ "Updating this theme will lose any customizations you have made. 'Cancel' "
+#~ "to stop, 'OK' to update."
+#~ msgstr ""
+#~ "Updating this theme will lose any customizations you have made. 'Cancel' "
+#~ "to stop, 'OK' to update."

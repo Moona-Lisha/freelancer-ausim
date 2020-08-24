@@ -1,0 +1,56 @@
+.zerif_repeater_container, .zerif_general_control_repeater_container {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    cursor:move;
+}
+.zerif_repeater_container .zerif-box-content-hidden, .zerif_general_control_repeater_container .zerif-box-content-hidden {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    border-top:0px;
+    padding-top: 0px;
+}
+button.zerif_remove_field {
+    display: inline-block;
+    width: 25% !important;
+    height: 57px !important;
+    white-space: initial !important;
+    line-height: 17px !important;
+    float: right;
+}
+
+button.zerif_general_control_remove_field {
+    width: 100%;
+    margin-top: 10px!important;
+
+}
+
+button.zerif_general_control_remove_field:hover{
+    background-color:#C83939!important;
+    color:#FFFFFF!important;
+    border: 0;
+}
+
+
+.zerif_repeater_container .zerif_icon_link,  .zerif_general_control_repeater_container .zerif_text_control, .zerif_general_control_repeater_container .zerif_link_control{
+    width: 100% !important;
+    margin: 3px 0 0 !important;
+}
+.zerif_repeater_container .zerif_icons, .zerif_general_control_repeater_container .zerif_icon_control {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#zerif_new_field, #zerif_general_control_new_field {
+    width: 100%;
+}
+.customize-control-widget_form .widget-control-save {
+    display:block !important;
+}
+
+.zerif_general_control_repeater_container .zerif-box-content-hidden{
+    display: none;
+}
+.zerif_general_control_repeater_container .zerif-box-content-hidden{
+    padding-top: 5px;
+}

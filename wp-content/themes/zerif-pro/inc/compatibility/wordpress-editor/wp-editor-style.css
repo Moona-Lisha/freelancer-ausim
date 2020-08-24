@@ -1,0 +1,433 @@
+@import url("//fonts.googleapis.com/css?family=Montserrat:300i,400,400i,700");
+@import url("//fonts.googleapis.com/css?family=Lato:300,400,700,400italic");
+
+
+/* --- General --- */
+.editor-writing-flow{
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #404040
+}
+
+body .edit-post-visual-editor .editor-post-title__block {
+    margin-bottom: 10px;
+}
+
+body .editor-post-title__block:after {
+    display: block;
+    position: relative;
+    width: 10%;
+    height: 2px;
+    left: 14px;
+    top: -9px;
+    background: #e96656;
+    content: " ";
+    margin: 0;
+}
+
+body .editor-post-title__block .editor-post-title__input {
+    margin: 0 0 10px 0;
+    padding: 0 14px;
+    color: #404040;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px!important;
+    font-weight: 700;
+    line-height: 35px!important;
+    text-align: left;
+}
+
+body #editor.page-template-template-blog-large .edit-post-visual-editor .editor-post-title__block,
+body #editor.page-template-template-blog-large .editor-post-title__block .editor-post-title__input,
+body #editor.page-template-template-blog .edit-post-visual-editor .editor-post-title__block,
+body #editor.page-template-template-blog .editor-post-title__block .editor-post-title__input{
+    margin: 0 auto;
+}
+/* --- End General --- */
+
+/* --- Headings --- */
+.editor-writing-flow h1,
+.editor-writing-flow h2,
+.editor-writing-flow h3,
+.editor-writing-flow h4,
+.editor-writing-flow h5,
+.editor-writing-flow h6 {
+    color: #404040;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 1.1;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h1,
+.editor-writing-flow h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h2,
+.editor-writing-flow h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h3,
+.editor-writing-flow h3 {
+    font-size: 24px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h4,
+.editor-writing-flow h4 {
+    font-size: 18px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h5,
+.editor-writing-flow h5 {
+    font-size: 17px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h6,
+.editor-writing-flow h6 {
+    font-size: 16px;
+}
+/* --- End Headings --- */
+/* --- Blockquote --- */
+.wp-block-freeform.block-library-rich-text__tinymce blockquote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-left: 3px solid #e96656;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/* --- End Blockquote --- */
+/* --- Paragraph --- */
+.editor-styles-wrapper .editor-writing-flow p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.editor-styles-wrapper .editor-writing-flow blockquote p:last-child,
+.editor-styles-wrapper .editor-writing-flow blockquote ul:last-child,
+.editor-styles-wrapper .editor-writing-flow blockquote ol:last-child {
+    margin-bottom: 0;
+}
+
+.editor-styles-wrapper .editor-writing-flow blockquote p {
+    font-size: 16px
+}
+/* --- End Paragraph --- */
+/* --- Code --- */
+.editor-styles-wrapper .editor-writing-flow code,
+.wp-block-freeform.block-library-rich-text__tinymce code{
+    font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    white-space: initial;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+/* --- End Code --- */
+/* --- Links --- */
+.wp-block-freeform.block-library-rich-text__tinymce a,
+.editor-writing-flow a {
+    color: #e96656;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce a:hover,
+.editor-writing-flow a:hover {
+    color: #cb4332;
+}
+/* --- End Links --- */
+/* --- Table --- */
+.editor-writing-flow table tr,
+table.mce-item-table,
+table.mce-item-table thead,
+table.mce-item-table td,
+table.mce-item-table th,
+table.mce-item-table thead th,
+table.mce-item-table caption,
+.editor-writing-flow table thead{
+    border: 0;
+}
+
+.editor-writing-flow table,
+table.mce-item-table{
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.editor-writing-flow table th,
+table.mce-item-table th,
+.editor-writing-flow table td,
+table.mce-item-table td{
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+    font-size: 16px;
+}
+
+.editor-writing-flow table thead th{
+    border: 0;
+}
+/* --- End Table --- */
+/* --- Definition Lists --- */
+.editor-writing-flow dl {
+    margin: 0 20px;
+}
+.editor-writing-flow dt {
+    font-weight: bold;
+}
+.editor-writing-flow dd {
+    margin: 0 1.5em 1.5em 0;
+}
+/* --- End Definition Lists --- */
+/* --- Lists --- */
+.editor-styles-wrapper .editor-writing-flow ul,
+.editor-styles-wrapper .editor-writing-flow ul ul,
+.editor-styles-wrapper .editor-writing-flow ol ul {
+    list-style: disc;
+    margin: 0 0 1.5em 3em;
+    clear: left;
+    padding: 0;
+}
+
+.editor-styles-wrapper .editor-writing-flow ol{
+    margin: 0 0 1.5em 3em;
+    clear: left;
+    padding: 0;
+}
+
+.editor-styles-wrapper .editor-writing-flow li > ul,
+.editor-styles-wrapper .editor-writing-flow li > ol{
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+.editor-styles-wrapper .editor-writing-flow li {
+    margin: 0;
+    line-height: 20px;
+}
+/* --- End Lists --- */
+/* --- HTML elements --- */
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots){
+    max-width: initial;
+}
+.editor-styles-wrapper hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+
+.editor-styles-wrapper address {
+    margin: 0 0 1.5em;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.editor-styles-wrapper abbr,
+.editor-styles-wrapper acronym {
+    cursor: help;
+}
+
+.editor-styles-wrapper ins,
+.editor-styles-wrapper mark {
+    background: #fff9c0;
+    text-decoration: none;
+}
+.editor-styles-wrapper kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+.editor-styles-wrapper pre,
+.wp-block-freeform.block-library-rich-text__tinymce pre{
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+/* --- End HTML elements --- */
+/* --- Sidebar style --- */
+.zelle-gtb.has-sidebar-right .zelle-content-wrap,
+.zelle-gtb.has-sidebar-left .zelle-content-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.zelle-gtb .zelle-blocks-wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.zelle-gtb .editor-writing-flow {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.zelle-gtb .editor-post-title,
+.zelle-gtb .editor-block-list__layout{
+    padding: 0 15px;
+}
+
+.zelle-gtb .editor-block-list__layout{
+    width: 100%;
+}
+
+.zelle-blocks-wrap .wp-block{
+    max-width: 100%;
+}
+.zelle-gtb-sidebar {
+    display: none;
+}
+
+body.post-type-post .zelle-gtb .editor-post-title:after{
+    content: "";
+    height: 12px;
+    width: 200px;
+    background: rgba(231, 231, 231, 0.25);
+    margin: 0 14px;
+    margin-top: -12px;
+    display: block;
+}
+
+.zelle-editor-wrapper {
+    width: 100%;
+}
+
+@media (min-width: 960px) {
+    .zelle-editor-wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    body.zelle-header-template #editor.page-template-template-blog-large .zelle-editor-wrapper,
+    body.zelle-header-template #editor.page-template-template-blog .zelle-editor-wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    body:not(.zelle-header-template) .zelle-gtb .editor-writing-flow{
+        width: 80%;
+    }
+
+    #editor.page-template-default .zelle-gtb-sidebar.sidebar-right,
+    #editor.page-template-default .zelle-gtb-sidebar.sidebar-left,
+    #editor.page-template-template-blog-large .zelle-gtb-sidebar.sidebar-right,
+    #editor.page-template-template-blog-large .zelle-gtb-sidebar.sidebar-left,
+    #editor.page-template-template-blog .zelle-gtb-sidebar.sidebar-right,
+    #editor.page-template-template-blog .zelle-gtb-sidebar.sidebar-left{
+        display: flex;
+        max-width: 100%;
+        padding: 10px;
+        background: rgba(231, 231, 231, 0.25);
+        text-align: center;
+        justify-content: center;
+        flex-basis: 25%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .zelle-gtb-sidebar.sidebar-right{
+        border-left: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .zelle-gtb-sidebar.sidebar-left{
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    /*#editor.page-template-template-blog-large .zelle-editor-wrapper,*/
+    /*#editor.page-template-template-blog .zelle-editor-wrapper {*/
+        /*max-width: 90%;*/
+        /*margin: 0 auto;*/
+    /*}*/
+}
+
+/* --- Editor Title on page --- */
+.thumb-in-page-content{
+    padding: 15px;
+}
+body.zelle-header-template .editor-post-title__block .editor-post-title__input {
+    text-align: center;
+    color: #FFF;
+    line-height: 65px!important;
+    z-index: 0;
+    text-transform: uppercase;
+    font-size: 55px!important;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+body.zelle-header-template .editor-post-title__block:after {
+    content:none;
+}
+
+body.zelle-header-template .editor-post-title {
+    width: 100%;
+}
+body.zelle-header-template .wp-block.editor-post-title__block {
+    width: 100%;
+    max-width: 83.33333333%;
+}
+
+body.zelle-header-template .editor-writing-flow {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body.zelle-header-template .editor-writing-flow > div > div > div:not(.editor-block-list__layout):not(.zelle-editor-wrapper) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 260px;
+    margin-bottom: 60px;
+    padding:90px 0;
+    box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+body.zelle-header-template .editor-writing-flow > div > div > div:not(.editor-block-list__layout):not(.zelle-editor-wrapper):before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    content: " ";
+}
+/* --- End Editor Title on page --- */
